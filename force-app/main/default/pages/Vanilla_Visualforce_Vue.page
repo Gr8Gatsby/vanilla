@@ -6,23 +6,26 @@
         <apex:remoteObjectModel name="Market__c" jsShorthand="Market" fields="FMID__c,Name,Twitter__c,City__c">
         </apex:remoteObjectModel>
     </apex:remoteObjects>
-    <style>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <apex:includeScript value="{!$Resource.manifest}"/>
+    <!-- <apex:includeScript value="{!$Resource.vendor}"/> -->
+    <apex:includeScript value="{!$Resource.app}"/>
+
+    <!-- <style>
         #app{font-family:Avenir,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-align:center;color:#2c3e50;margin-top:60px}.value{border:1px solid gray}.edit,.value{margin-left:5px;padding:2px;-ms-flex:5;flex:5}.edit{border:none;color:#fff;border-bottom:2px solid #ff3f91;background-color:hotpink}
     </style>
 
-    <apex:includeScript value="{!$Resource.manifest}"/>
-    <apex:includeScript value="{!$Resource.vendor}"/>
-    <apex:includeScript value="{!$Resource.app}"/>
+    <div id="app">
+        <dataTable></dataTable>
+    </div> -->
 
-    <body>
-        <div id="app"></div>
-    </body>
-
-    <!--
-    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    
+    
     <apex:includeScript value="{!$Resource.vue}"/>
 
-   <div id="app">
+    <div id="app"></div>
+
+   <!-- <div id="app">
        <hello-ping></hello-ping>
         <data-table object-name="Market__c" page-size="20" v-for="r in recs" v-bind:row="r" v-bind:key="r.Id">
             
@@ -86,7 +89,7 @@
                 })
             }
         })
-   </script>
--->
+   </script> -->
+
 </html>
 </apex:page>

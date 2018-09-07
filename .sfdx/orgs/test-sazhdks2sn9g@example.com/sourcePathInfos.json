@@ -602,15 +602,15 @@
     [
         "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/pages/Vanilla_Visualforce.page",
         {
-            "state": "u",
             "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/pages/Vanilla_Visualforce.page",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1036,
             "modifiedTime": 1536271931184,
             "changeTime": 1536271931184,
-            "isWorkspace": false,
-            "contentHash": "c4babe05632737d2aafd09d74a333e4746baa90c"
+            "contentHash": "c4babe05632737d2aafd09d74a333e4746baa90c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -661,16 +661,15 @@
     [
         "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/pages/Vanilla_Visualforce_Vue.page",
         {
+            "state": "u",
             "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/pages/Vanilla_Visualforce_Vue.page",
             "isDirectory": false,
-            "size": 3274,
-            "modifiedTime": 1536242415857,
-            "changeTime": 1536242415857,
-            "contentHash": "9ecfdc35c4cfe6c88a861fc2d25da8f947864dad",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 3335,
+            "modifiedTime": 1536351270572,
+            "changeTime": 1536351270572,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "66de14117532c6ea9cf431ae0ccf6fa1e66925f7"
         }
     ],
     [
@@ -829,7 +828,7 @@
             "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources",
             "isDirectory": true,
             "size": 800,
-            "modifiedTime": 1536217509615,
+            "modifiedTime": 1536351867836,
             "changeTime": 1536217509615,
             "contentHash": "66a0e705b40e40234826d77dfbda3fba6f2de5f6",
             "isMetadataFile": false,
@@ -856,16 +855,15 @@
     [
         "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/app.js",
         {
+            "state": "u",
             "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/app.js",
             "isDirectory": false,
-            "size": 12595,
-            "modifiedTime": 1536217417357,
-            "changeTime": 1536217417358,
-            "contentHash": "b150a9c9a6c264e6fa16547f594f1256cae6a790",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 3541,
+            "modifiedTime": 1536351791435,
+            "changeTime": 1536351791437,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "ebc100e6c5920e78f1bfad4c210c17b83c8683b4"
         }
     ],
     [
@@ -979,7 +977,7 @@
             "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/dc.js",
             "isDirectory": false,
             "size": 2193,
-            "modifiedTime": 1536207749266,
+            "modifiedTime": 1536351871102,
             "changeTime": 1536207749266,
             "contentHash": "9fbd9a8d194a1d44c1cd42bedcc875b75de18f2e",
             "isMetadataFile": false,
@@ -1069,7 +1067,7 @@
             "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/manifest.js",
             "isDirectory": false,
             "size": 837,
-            "modifiedTime": 1536217417357,
+            "modifiedTime": 1536351791436,
             "changeTime": 1536217417358,
             "contentHash": "651fa02c81d6c52efa2c03128810b88c2196357b",
             "isMetadataFile": false,
@@ -1129,7 +1127,7 @@
             "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vendor.js",
             "isDirectory": false,
             "size": 112087,
-            "modifiedTime": 1536217417358,
+            "modifiedTime": 1536351791436,
             "changeTime": 1536217417358,
             "contentHash": "ad245757d0b9494c387a2f0bf7a4f1b1c0947a79",
             "isMetadataFile": false,
@@ -1263,14 +1261,13 @@
         {
             "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla",
             "isDirectory": true,
-            "size": 288,
-            "modifiedTime": 1533959931640,
-            "changeTime": 1533959931640,
-            "contentHash": "482aba1731d0a586e52ba05892f68b26d69ba4fe",
+            "size": 448,
+            "modifiedTime": 1536293561345,
+            "changeTime": 1536293561345,
+            "contentHash": "2db7d38b91796145ac839d430eb686ec217efcd3",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": true,
-            "isArtifactRoot": false
+            "isWorkspace": true
         }
     ]
 ]
