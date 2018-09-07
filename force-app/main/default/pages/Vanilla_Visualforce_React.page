@@ -1,0 +1,56 @@
+<apex:page docType="html-5.0" >
+
+    <!-- Remote Objects definition to set accessible sObjects and fields -->
+    <apex:remoteObjects >
+        <apex:remoteObjectModel name="Market__c" jsShorthand="Market" fields="FMID__c,Name,Twitter__c,City__c">
+        </apex:remoteObjectModel>
+    </apex:remoteObjects>
+
+    <head>
+        <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    </head>
+    
+    <!-- <apex:includeScript value="{!$Resource.react}"/>
+    <apex:includeScript value="{!$Resource.react_dom}"/>
+    <apex:includeScript value="{!$Resource.react_table}"/> -->
+
+    <div id="App"></div>
+
+    <script type="text/babel">
+       
+        class App extends React.Component{
+            render() {
+                return(
+                    <div>
+                        <h1>its works</h1>
+                        <DataTable pageSize="20" objectName="Market"></DataTable> 
+                    </div>
+                );
+            }
+        };
+        
+        class DataTable extends React.Component{
+            render() {
+                return(
+                    <div>
+                        <h1>Data Table</h1>
+                        <div>{this.props.pageSize}</div>
+                        <div>{this.props.objectName}</div>
+                    </div>
+                )
+            }
+        }
+
+        ReactDOM.render(
+            <App/>,
+            document.getElementById('App')
+        );   
+
+        // ReactDOM.render(
+        //     <DataTable/>,
+        //     document.getElementById('App')
+        // )
+    </script>
+</apex:page>

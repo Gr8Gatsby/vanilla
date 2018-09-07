@@ -1,0 +1,22 @@
+<apex:page >
+    <!-- Remote Objects definition to \]
+        set accessible sObjects and fields -->
+    <apex:remoteObjects >
+        <apex:remoteObjectModel name="Market__c" jsShorthand="Market" fields="FMID__c,Name,Twitter__c,City__c">
+        </apex:remoteObjectModel>
+    </apex:remoteObjects>
+
+    <!-- Load scripts -->
+    <apex:includeScript value="{!$Resource.data_cell}"/>
+    <apex:includeScript value="{!$Resource.data_table}"/>
+    <apex:includeScript value="{!$Resource.data_row}"/>
+
+    <!-- Page layout -->
+    <data-table page-size="20" object-name="Market">
+        <!-- Should add column width -->
+        <div class="column" name="FMID__c" display-name="Market ID" data-editable="false"></div>
+        <div class="column" name="Name" display-name="Market Name" data-editable="true"></div>
+        <div class="column" name="City__c" display-name="City" data-editable="true"></div>
+        <!-- <div class="column" name="Twitter__c" display-name="Twitter" data-editable="true"></div> -->
+    </data-table>
+</apex:page>
