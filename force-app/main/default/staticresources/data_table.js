@@ -69,6 +69,7 @@ class DataTable extends HTMLElement {
         so.retrieve({
             limit : pageSize
         }, function(err, records){
+            debugger
             if(err) throw new Error(err.message);
             else {
                 records.forEach(function(record) {

@@ -1,28 +1,21 @@
-.App {
-  text-align: center;
+.value {
+  margin-left: 5px;
+  padding: 2px;
+  border:none;
+  flex: 5;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.edit {
+  margin-left: 5px;
+  padding: 2px;
+  border: none;
   color: white;
+  border-bottom: 2px #FF3F91 solid;
+  flex: 5;
+  background-color: hotpink;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.dataTable{
+  border: 1px solid red;
+  padding: 5px;
 }
