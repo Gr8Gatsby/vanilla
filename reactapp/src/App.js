@@ -29,11 +29,11 @@ class DataTable extends React.Component{
                 let dataEditable = div.props['data-editable']
 
                 columnMeta.push({'displayName': displayName, 'dataEditable': dataEditable, 'name': name})
-                return <DataCell className="value" value={ div.props['display-name'] }>  </DataCell>
+                return <DataCell key={ div.props['name']} className="value" value={ div.props['display-name'] } editable={ div.props['data-editable'] }>  </DataCell>
               })}
               {
                 records.map(row => {
-                  return <DataRow row={ row } columns={ columnMeta }></DataRow>
+                  return <DataRow key={ row.Id } row={ row } columns={ columnMeta }></DataRow>
                 })
               }
           </div>
@@ -42,25 +42,27 @@ class DataTable extends React.Component{
 }
 
 class DataRow extends React.Component{
+  constructor(props, context) {
+    super(props, context)
+
+  }
+  
   render(){
     var entries = []
+    var columns = this.props.columns
     return(
       <div>
         {Object.entries(this.props.row._props).forEach(attr => {
-          let cellMeta = this.props.columns;
+          let cellMeta = columns.find(cellName => cellName.name == attr[0])
+          attr.meta = cellMeta
           entries.push(attr);
         })}
         
         {entries.map(cell => {
-          let cellMeta = this.props.columns[cell[0]]
-          return <DataCell label={ cell[0] } value={ cell[1] } cellMeta={ cellMeta }></DataCell>
+          return <DataCell label={ cell[0] } value={ cell[1] } editable={ cell.meta.dataEditable } className="value"></DataCell>
         })}
       </div>
     )
-  }
-
-  isEditable(obj) {
-    
   }
 }
 
@@ -69,17 +71,23 @@ class DataCell extends React.Component{
     super(props, context)
     this.handleBlur = this.handleBlur.bind(this)
     this.saveChanges = this.saveChanges.bind(this)
+    this.handleDoubleClick = this.handleDoubleClick.bind(this)
   }
   
   render(){
     return(
       <input  className={ this.props.className } 
               value={ this.props.value }
+              editable = { this.props.editable }
               onDoubleClick={ this.handleDoubleClick }
               onBlur={ this.handleBlur }
               readOnly>
       </input>
     )
+  }
+
+  componentDidMount(){
+  
   }
 
   saveChanges(obj, value){
@@ -95,10 +103,10 @@ class DataCell extends React.Component{
   }
 
   handleDoubleClick(evt) {
-    // if(this.editable) {
+    if(this.props.editable === "true") {
         evt.target.readOnly = false;
         evt.target.setAttribute('class', 'edit');
-    // }
+    }
   }
 
   handleBlur(evt) {
