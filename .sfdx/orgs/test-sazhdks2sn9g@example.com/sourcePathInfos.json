@@ -661,15 +661,15 @@
     [
         "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/pages/Vanilla_Visualforce_Vue.page",
         {
-            "state": "u",
             "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/pages/Vanilla_Visualforce_Vue.page",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 3335,
             "modifiedTime": 1536351270572,
             "changeTime": 1536351270572,
-            "isWorkspace": false,
-            "contentHash": "66de14117532c6ea9cf431ae0ccf6fa1e66925f7"
+            "contentHash": "66de14117532c6ea9cf431ae0ccf6fa1e66925f7",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -855,15 +855,15 @@
     [
         "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/app.js",
         {
-            "state": "u",
             "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/app.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 3541,
             "modifiedTime": 1536351791435,
             "changeTime": 1536351791437,
-            "isWorkspace": false,
-            "contentHash": "ebc100e6c5920e78f1bfad4c210c17b83c8683b4"
+            "contentHash": "ebc100e6c5920e78f1bfad4c210c17b83c8683b4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -944,16 +944,15 @@
     [
         "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/data_table.js",
         {
+            "state": "u",
             "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/data_table.js",
             "isDirectory": false,
-            "size": 2983,
-            "modifiedTime": 1536102490889,
-            "changeTime": 1536102490889,
-            "contentHash": "53584faac9911311f2d712af3ea31a4e43b46f05",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 3004,
+            "modifiedTime": 1536377925568,
+            "changeTime": 1536377925568,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "2411aad0b92015aef80b30fd96af407b093987c3"
         }
     ],
     [
@@ -1067,7 +1066,7 @@
             "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/manifest.js",
             "isDirectory": false,
             "size": 837,
-            "modifiedTime": 1536351791436,
+            "modifiedTime": 1536351949939,
             "changeTime": 1536217417358,
             "contentHash": "651fa02c81d6c52efa2c03128810b88c2196357b",
             "isMetadataFile": false,
@@ -1259,15 +1258,15 @@
     [
         "/Users/kevin.hill/code/vanilla/vanilla",
         {
+            "state": "u",
             "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla",
             "isDirectory": true,
-            "size": 448,
-            "modifiedTime": 1536293561345,
-            "changeTime": 1536293561345,
-            "contentHash": "2db7d38b91796145ac839d430eb686ec217efcd3",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": true
+            "size": 448,
+            "modifiedTime": 1536352399619,
+            "changeTime": 1536352399619,
+            "isWorkspace": true,
+            "contentHash": "68d0fd1ced0af7239f4b52dda4f6a8476b38be18"
         }
     ]
 ]
