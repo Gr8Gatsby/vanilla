@@ -5,11 +5,14 @@ import './App.css';
 class App extends Component {
   render() {
     return (
+      <div>
+        <h1>Hello</h1>
       <DataTable pageSize="10" objectName="Market">
         <div class="column" name="FMID__c" display-name="Market ID" data-editable="false"></div>
         <div class="column" name="Name" display-name="Market Name" data-editable="true"></div>
         <div class="column" name="Id" display-name="Salesforce ID" data-editable="false"></div>
       </DataTable>
+      </div>
     );
   }
 }
@@ -20,16 +23,15 @@ class DataTable extends React.Component{
     var columnMeta = [];
       return(
           <div className="dataTable">
+          
               <h1>Data Table</h1>
-              <div>{this.props.pageSize}</div>
-              <div>{this.props.objectName}</div>
               {this.props.children.map(div => {
                 let displayName = div.props['display-name']
                 let name = div.props['name']
                 let dataEditable = div.props['data-editable']
 
                 columnMeta.push({'displayName': displayName, 'dataEditable': dataEditable, 'name': name})
-                return <DataCell key={ div.props['name']} className="value" value={ div.props['display-name'] } editable={ div.props['data-editable'] }>  </DataCell>
+                return <DataCell key={ div.props['name']} className="value" value={ div.props['display-name'] } editable="false">  </DataCell>
               })}
               {
                 records.map(row => {
@@ -42,18 +44,13 @@ class DataTable extends React.Component{
 }
 
 class DataRow extends React.Component{
-  constructor(props, context) {
-    super(props, context)
-
-  }
-  
   render(){
     var entries = []
     var columns = this.props.columns
     return(
       <div>
         {Object.entries(this.props.row._props).forEach(attr => {
-          let cellMeta = columns.find(cellName => cellName.name == attr[0])
+          let cellMeta = columns.find(cellName => cellName.name === attr[0])
           attr.meta = cellMeta
           entries.push(attr);
         })}
