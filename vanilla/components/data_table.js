@@ -11,6 +11,7 @@ class DataTable extends HTMLElement {
                 .dataTable{
                     border: 1px solid red;
                     padding: 5px;
+                    text-align: center;
                 }
             </style>
             <slot></slot>

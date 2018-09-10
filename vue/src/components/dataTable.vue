@@ -35,3 +35,11 @@ export default {
   }
 }
 </script>
+
+<style>
+  dataTable {
+    border: 1px solid red;
+    padding: 5px;
+    text-align: center;
+  }
+</style>

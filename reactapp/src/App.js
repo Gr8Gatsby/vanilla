@@ -6,12 +6,12 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>Hello</h1>
-      <DataTable pageSize="10" objectName="Market">
-        <div class="column" name="FMID__c" display-name="Market ID" data-editable="false"></div>
-        <div class="column" name="Name" display-name="Market Name" data-editable="true"></div>
-        <div class="column" name="Id" display-name="Salesforce ID" data-editable="false"></div>
-      </DataTable>
+        <h1>React App</h1>
+        <DataTable pageSize="10" objectName="Market">
+          <div class="column" name="FMID__c" display-name="Market ID" data-editable="false"></div>
+          <div class="column" name="Name" display-name="Market Name" data-editable="true"></div>
+          <div class="column" name="Id" display-name="Salesforce ID" data-editable="false"></div>
+        </DataTable>
       </div>
     );
   }
@@ -23,8 +23,6 @@ class DataTable extends React.Component{
     var columnMeta = [];
       return(
           <div className="dataTable">
-          
-              <h1>Data Table</h1>
               {this.props.children.map(div => {
                 let displayName = div.props['display-name']
                 let name = div.props['name']
@@ -69,15 +67,19 @@ class DataCell extends React.Component{
     this.handleBlur = this.handleBlur.bind(this)
     this.saveChanges = this.saveChanges.bind(this)
     this.handleDoubleClick = this.handleDoubleClick.bind(this)
+    this.handleInputChange = this.handleInputChange.bind(this)
+    this.state = {value: this.props.value}
+    //this.setState({value: cell[1]})
   }
   
   render(){
     return(
       <input  className={ this.props.className } 
-              value={ this.props.value }
+              value={ this.state.value }
               editable = { this.props.editable }
               onDoubleClick={ this.handleDoubleClick }
               onBlur={ this.handleBlur }
+              onChange={ this.handleInputChange }
               readOnly>
       </input>
     )
@@ -85,6 +87,10 @@ class DataCell extends React.Component{
 
   componentDidMount(){
   
+  }
+
+  handleInputChange (event) {
+    this.setState({value: event.target.value});
   }
 
   saveChanges(obj, value){
