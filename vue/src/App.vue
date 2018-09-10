@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1>Vue App</h1>
     <!-- <router-view/> -->
     <dataTable page-size="20" object-name="Market">
       <div class="column" name="FMID__c" display-name="Market ID" data-editable="false"></div>
