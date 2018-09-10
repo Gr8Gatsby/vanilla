@@ -1,10 +1,9 @@
 <template>
     <div>
-      {{ colData }}
       <dataCell v-for="col in colData"
-        v-bind:key="col.data.attrs.name"
-        v-bind:val="col.data.attrs.name"
-        v-bind:label="col.data.attrs.name"></dataCell>
+        v-bind:key="col.name"
+        v-bind:val="col['display-name']"
+        v-bind:label="col"></dataCell>
       <slot></slot>
       <slot name="table">
         <div class="dataTable"></div>
