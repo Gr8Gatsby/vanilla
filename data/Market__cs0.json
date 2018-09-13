@@ -1,0 +1,3072 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef1"
+      },
+      "Name": "Shelby Food and Craft Market",
+      "FMID__c": 1000001,
+      "Street__c": "City Hall park",
+      "City__c": "Shelby",
+      "County__c": "Toole",
+      "State__c": "Montana",
+      "Zip__c": 59474,
+      "Latitude__c": 48.5041,
+      "Longitude__c": -111.856
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef3"
+      },
+      "Name": "Santa Barbara La Cumbre Farmers Market",
+      "FMID__c": 1000007,
+      "Street__c": "110 South Hope Avenue",
+      "City__c": "Santa Barbara",
+      "County__c": "Santa Barbara",
+      "State__c": "California",
+      "Zip__c": 93101,
+      "Latitude__c": 34.4378,
+      "Longitude__c": -119.747,
+      "Website__c": "http://www.sbfarmersmarket.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef5"
+      },
+      "Name": "South Shore Farmers Market",
+      "FMID__c": 1000009,
+      "Street__c": "2900 South Shore Drive",
+      "City__c": "Bay View",
+      "County__c": "Milwaukee",
+      "State__c": "Wisconsin",
+      "Zip__c": 53207,
+      "Latitude__c": 42.994023,
+      "Longitude__c": -87.882514,
+      "Website__c": "http://www.southshorefarmersmarket.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef7"
+      },
+      "Name": "Georgetown County Farmers Market",
+      "FMID__c": 1000011,
+      "Street__c": "310 Greenwich Drive",
+      "City__c": "Georgetown",
+      "County__c": "Georgetown",
+      "State__c": "South Carolina",
+      "Zip__c": 29440,
+      "Latitude__c": 33.359961,
+      "Longitude__c": -79.276485
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef9"
+      },
+      "Name": "Tubac Farmers Market",
+      "FMID__c": 1000014,
+      "Street__c": "Tubac Plaza, Exit 34 - I-19",
+      "City__c": "Tubac",
+      "County__c": "Pima",
+      "State__c": "Arizona",
+      "Zip__c": 85646,
+      "Latitude__c": 31.6228,
+      "Longitude__c": -111.055
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef11"
+      },
+      "Name": "Texarkana, Texas Farmers' Market",
+      "FMID__c": 1000016,
+      "Street__c": "305 Texas Boulevard",
+      "City__c": "Texarkana",
+      "County__c": "Bowie",
+      "State__c": "Texas",
+      "Zip__c": 75501,
+      "Latitude__c": 33.421527,
+      "Longitude__c": -94.045817,
+      "Website__c": "http://www.localharvest.org/texarkana-texas-farmers-market-M38382"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef13"
+      },
+      "Name": "Elizabeth Avenue Farmers Market",
+      "FMID__c": 1000022,
+      "Street__c": "1521 Elizabeth Ave",
+      "City__c": "Charlotte",
+      "County__c": "Mecklenburg",
+      "State__c": "North Carolina",
+      "Zip__c": 28204,
+      "Latitude__c": 35.214409,
+      "Longitude__c": -80.8269849,
+      "Website__c": "http://www.elizabethavefarmersmarket.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef15"
+      },
+      "Name": "El Segundo Farmers Market",
+      "FMID__c": 1000024,
+      "Street__c": "Grand & Eucalyptus",
+      "City__c": "Los Angeles",
+      "County__c": "Los Angeles",
+      "State__c": "California",
+      "Zip__c": 90045,
+      "Latitude__c": 33.9208,
+      "Longitude__c": -118.405,
+      "Website__c": "http://www.farmernet.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef17"
+      },
+      "Name": "Bagley Area Farmrs Market",
+      "FMID__c": 1000029,
+      "Street__c": "US Highway 2 and Getchell Avenue",
+      "City__c": "Bagley",
+      "County__c": "Clearwater",
+      "State__c": "Minnesota",
+      "Zip__c": 56621,
+      "Latitude__c": 47.5218,
+      "Longitude__c": -95.397,
+      "Website__c": "http://www.bagleyareafarmersmarkeet.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef19"
+      },
+      "Name": "Open Air Farmers Market",
+      "FMID__c": 1000031,
+      "Street__c": "Oklahoma Ave. and Benning Rd., NE",
+      "City__c": "Washington",
+      "County__c": "District of Columbia",
+      "State__c": "District of Columbia",
+      "Zip__c": 20020,
+      "Latitude__c": 38.8977,
+      "Longitude__c": -76.9695
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef21"
+      },
+      "Name": "Northeast Farmers Market",
+      "FMID__c": 1000036,
+      "Street__c": "Lake Carolina Town Center",
+      "City__c": "Columbia",
+      "County__c": "Richland",
+      "State__c": "South Carolina",
+      "Zip__c": 29229,
+      "Latitude__c": 34.1774,
+      "Longitude__c": -80.8965,
+      "Website__c": "http://www.Lakecarolina.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef23"
+      },
+      "Name": "Del Mar Farmers Market",
+      "FMID__c": 1000038,
+      "Street__c": "1050 Camino Del Mar",
+      "City__c": "Del Mar",
+      "County__c": "Tulare",
+      "State__c": "California",
+      "Zip__c": 92014,
+      "Latitude__c": 32.9548,
+      "Longitude__c": -117.264
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef25"
+      },
+      "Name": "El Presidio Mercado",
+      "FMID__c": 1000040,
+      "Street__c": "Corner of Church and Alameda",
+      "City__c": "Tucson",
+      "County__c": "Pima",
+      "State__c": "Arizona",
+      "Latitude__c": 32.2239,
+      "Longitude__c": -110.973
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef27"
+      },
+      "Name": "Inver Grove Heights Farmers Market",
+      "FMID__c": 1000042,
+      "Street__c": "Veterans Memorial Community Center parking lot",
+      "City__c": "Inver Grove Heights",
+      "County__c": "Dakota",
+      "State__c": "Minnesota",
+      "Zip__c": 55077,
+      "Latitude__c": 44.8322,
+      "Longitude__c": -93.064
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef29"
+      },
+      "Name": "Danville Auction",
+      "FMID__c": 1000044,
+      "Street__c": "15684 Body Rd.",
+      "City__c": "Danville",
+      "County__c": "Knox",
+      "State__c": "Ohio",
+      "Zip__c": 43014,
+      "Latitude__c": 40.4553,
+      "Longitude__c": -82.2445
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef31"
+      },
+      "Name": "Mulberry Street Market",
+      "FMID__c": 1000050,
+      "Street__c": "500 Mulberry St",
+      "City__c": "Macon",
+      "County__c": "Bibb",
+      "State__c": "Georgia",
+      "Zip__c": 31201,
+      "Latitude__c": 32.838311,
+      "Longitude__c": -83.628616
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef33"
+      },
+      "Name": "Hollywood Farmers' Market",
+      "FMID__c": 1000052,
+      "Street__c": "1500 Ivar Ave. & Selma Ave",
+      "City__c": "Los Angeles",
+      "County__c": "Los Angeles",
+      "State__c": "California",
+      "Zip__c": 90028,
+      "Latitude__c": 34.09986,
+      "Longitude__c": -118.3283,
+      "Website__c": "http://www.seela.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef35"
+      },
+      "Name": "Bay Ridge Greenmarket",
+      "FMID__c": 1000057,
+      "Street__c": "3rd Ave & 95 St.",
+      "City__c": "New York",
+      "County__c": "Kings",
+      "State__c": "New York",
+      "Zip__c": 11209,
+      "Latitude__c": 40.61695,
+      "Longitude__c": -74.032102,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef37"
+      },
+      "Name": "57th Street Greenmarket",
+      "FMID__c": 1000060,
+      "Street__c": "W 57 St. & 9 Ave",
+      "City__c": "New York",
+      "County__c": "New York",
+      "State__c": "New York",
+      "Zip__c": 10019,
+      "Latitude__c": 40.768159,
+      "Longitude__c": -73.985839,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef39"
+      },
+      "Name": "82nd Street Greenmarket",
+      "FMID__c": 1000062,
+      "Street__c": "E 82nd St. - 1st & York Ave",
+      "City__c": "New York",
+      "County__c": "New York",
+      "State__c": "New York",
+      "Zip__c": 10028,
+      "Latitude__c": 40.773749,
+      "Longitude__c": -73.95009,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef41"
+      },
+      "Name": "97th Street Greenmarket",
+      "FMID__c": 1000064,
+      "Street__c": "W 97 St. & Columbus",
+      "City__c": "New York",
+      "County__c": "New York",
+      "State__c": "New York",
+      "Zip__c": 10025,
+      "Latitude__c": 40.79356,
+      "Longitude__c": -73.967012,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef43"
+      },
+      "Name": "Bowling Green Greenmarket",
+      "FMID__c": 1000066,
+      "Street__c": "Broadway & Battery Place",
+      "City__c": "New York",
+      "County__c": "New York",
+      "State__c": "New York",
+      "Zip__c": 10004,
+      "Latitude__c": 40.704587,
+      "Longitude__c": -74.014313,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef45"
+      },
+      "Name": "Columbia University Greenmarket",
+      "FMID__c": 1000068,
+      "Street__c": "Broadway - W114 & 115 Sts.",
+      "City__c": "New York",
+      "County__c": "New York",
+      "State__c": "New York",
+      "Zip__c": 10027,
+      "Latitude__c": 40.807345,
+      "Longitude__c": -73.96436,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef47"
+      },
+      "Name": "Downtown PATH Greenmarket",
+      "FMID__c": 1000070,
+      "Street__c": "W Broadway - Barclay St & Park Pl",
+      "City__c": "New York",
+      "County__c": "New York",
+      "State__c": "New York",
+      "Zip__c": 10271,
+      "Latitude__c": 40.7119522,
+      "Longitude__c": -74.0081736,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef49"
+      },
+      "Name": "Inwood Greenmarket",
+      "FMID__c": 1000072,
+      "Street__c": "Isham St - Seaman & Cooper",
+      "City__c": "New York",
+      "County__c": "New York",
+      "State__c": "New York",
+      "Zip__c": 10034,
+      "Latitude__c": 40.868272,
+      "Longitude__c": -73.919942,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef51"
+      },
+      "Name": "Rockefeller Center Greenmarket",
+      "FMID__c": 1000075,
+      "Street__c": "Rockefeller Plaza - 50 St.",
+      "City__c": "New York",
+      "County__c": "New York",
+      "State__c": "New York",
+      "Zip__c": 10185,
+      "Latitude__c": 40.759513,
+      "Longitude__c": -73.98056,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef53"
+      },
+      "Name": "Stuyvesant Town Greenmarket",
+      "FMID__c": 1000077,
+      "Street__c": "14th St loop & Ave A (in the Oval)",
+      "City__c": "New York",
+      "County__c": "New York",
+      "State__c": "New York",
+      "Zip__c": 10009,
+      "Latitude__c": 40.731763,
+      "Longitude__c": -73.977814,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef55"
+      },
+      "Name": "Tribeca Greenmarket",
+      "FMID__c": 1000079,
+      "Street__c": "Greenwich & Chambers",
+      "City__c": "New York",
+      "County__c": "New York",
+      "State__c": "New York",
+      "Zip__c": 10007,
+      "Latitude__c": 40.7163009,
+      "Longitude__c": -74.010994,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef57"
+      },
+      "Name": "Union Square Greenmarket",
+      "FMID__c": 1000081,
+      "Street__c": "E 17 St. & Broadway",
+      "City__c": "New York",
+      "County__c": "New York",
+      "State__c": "New York",
+      "Zip__c": 10003,
+      "Latitude__c": 40.737096,
+      "Longitude__c": -73.990409,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef59"
+      },
+      "Name": "New York Botanical Garden Greenmarket",
+      "FMID__c": 1000083,
+      "Street__c": "Kazimiroff Blvd-Bedford Pk & Mosholu Blvd inside NYBG Mosholu Gate",
+      "City__c": "Bronx",
+      "County__c": "Bronx",
+      "State__c": "New York",
+      "Zip__c": 10458,
+      "Latitude__c": 40.86686,
+      "Longitude__c": -73.880696,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef61"
+      },
+      "Name": "Jackson Heights Greenmarket",
+      "FMID__c": 1000085,
+      "Street__c": "34 Ave - 77 & 78 Sts",
+      "City__c": "Queens",
+      "County__c": "Queens",
+      "State__c": "New York",
+      "Zip__c": 11372,
+      "Latitude__c": 40.753353,
+      "Longitude__c": -73.889215,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef63"
+      },
+      "Name": "Sunnyside Greenmarket",
+      "FMID__c": 1000087,
+      "Street__c": "Skillman - 42 & 43 Sts",
+      "City__c": "Queens",
+      "County__c": "Queens",
+      "State__c": "New York",
+      "Zip__c": 11104,
+      "Latitude__c": 40.746899,
+      "Longitude__c": -73.92123,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef65"
+      },
+      "Name": "Elmhurst Hopsital Greenmarket",
+      "FMID__c": 1000089,
+      "Street__c": "41st Ave - 80 & 81 Sts",
+      "City__c": "Queens",
+      "County__c": "Queens",
+      "State__c": "New York",
+      "Zip__c": 11373,
+      "Latitude__c": 40.745901,
+      "Longitude__c": -73.8845641,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef67"
+      },
+      "Name": "St. George Greenmarket",
+      "FMID__c": 1000093,
+      "Street__c": "St Marks & Hyatt St",
+      "City__c": "Staten Island",
+      "County__c": "Richmond",
+      "State__c": "New York",
+      "Zip__c": 10301,
+      "Latitude__c": 40.6415918,
+      "Longitude__c": -74.0779055,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef69"
+      },
+      "Name": "Bronx Borough Hall Greenmarket",
+      "FMID__c": 1000095,
+      "Street__c": "Grand Concourse & 161 St",
+      "City__c": "Bronx",
+      "County__c": "Bronx",
+      "State__c": "New York",
+      "Zip__c": 10452,
+      "Latitude__c": 40.826979,
+      "Longitude__c": -73.922603,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef71"
+      },
+      "Name": "Parkchester/Virginia Pk Greenmarket",
+      "FMID__c": 1000097,
+      "Street__c": "Westchester Ave & White Plains Rd",
+      "City__c": "Bronx",
+      "County__c": "Bronx",
+      "State__c": "New York",
+      "Zip__c": 10472,
+      "Latitude__c": 40.8330521,
+      "Longitude__c": -73.8626362,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef73"
+      },
+      "Name": "Greenpoint - McCarren Park Greenmarket",
+      "FMID__c": 1000099,
+      "Street__c": "Union - Driggs N12th St",
+      "City__c": "Brooklyn",
+      "County__c": "Kings",
+      "State__c": "New York",
+      "Zip__c": 11222,
+      "Latitude__c": 40.720494,
+      "Longitude__c": -73.952708,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef75"
+      },
+      "Name": "Boro Park Greenmarket",
+      "FMID__c": 1000101,
+      "Street__c": "14th Ave - 49 & 50 Sts",
+      "City__c": "Brooklyn",
+      "County__c": "Kings",
+      "State__c": "New York",
+      "Zip__c": 11219,
+      "Latitude__c": 40.633137,
+      "Longitude__c": -73.990497,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef77"
+      },
+      "Name": "Grand Army Plaza Greenmarket",
+      "FMID__c": 1000104,
+      "Street__c": "Flatbush & Propsect Park W",
+      "City__c": "Brooklyn",
+      "County__c": "Kings",
+      "State__c": "New York",
+      "Zip__c": 11217,
+      "Latitude__c": 40.672631,
+      "Longitude__c": -73.970368,
+      "Website__c": "http://www.grownyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef79"
+      },
+      "Name": "Ely Farmers Market",
+      "FMID__c": 1000107,
+      "Street__c": "1570 Rowley St.",
+      "City__c": "Ely",
+      "County__c": "Linn",
+      "State__c": "Iowa",
+      "Zip__c": 52227,
+      "Latitude__c": 41.87162,
+      "Longitude__c": -91.58502
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef81"
+      },
+      "Name": "Market in the Park - Ferryville",
+      "FMID__c": 1000110,
+      "City__c": "Ferryville",
+      "County__c": "Crawford",
+      "State__c": "Wisconsin",
+      "Zip__c": 54628,
+      "Latitude__c": 43.363,
+      "Longitude__c": -91.097
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef83"
+      },
+      "Name": "Lander Valley Farmer's Market",
+      "FMID__c": 1000112,
+      "Street__c": "685 Main Street",
+      "City__c": "Lander",
+      "County__c": "Fremont",
+      "State__c": "Wyoming",
+      "Zip__c": 82520,
+      "Latitude__c": 42.8344887,
+      "Longitude__c": -108.7392146
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef85"
+      },
+      "Name": "Meadville Farmers Market",
+      "FMID__c": 1000114,
+      "Street__c": "910 Market Street",
+      "City__c": "Meadville",
+      "County__c": "Crawford",
+      "State__c": "Pennsylvania",
+      "Zip__c": 16335,
+      "Latitude__c": 41.6387,
+      "Longitude__c": -80.1534
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef87"
+      },
+      "Name": "White's Creek Organic Farmers Market",
+      "FMID__c": 1000116,
+      "Street__c": "Loacated at Earhman's General Store",
+      "City__c": "Whites Creek",
+      "County__c": "Davidson",
+      "State__c": "Tennessee",
+      "Zip__c": 37189,
+      "Latitude__c": 36.3367,
+      "Longitude__c": -86.7169
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef89"
+      },
+      "Name": "Main Street Marketplace",
+      "FMID__c": 1000120,
+      "Street__c": "Corner of Hampton Street & Main Street",
+      "City__c": "Columbia",
+      "County__c": "Richland",
+      "State__c": "South Carolina",
+      "Zip__c": 29201,
+      "Latitude__c": 34.0054,
+      "Longitude__c": -81.0357
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef91"
+      },
+      "Name": "Camden Farmers Market",
+      "FMID__c": 1000122,
+      "Street__c": "4400 Osseo Rd",
+      "City__c": "Minneapolis",
+      "County__c": "Hennepin",
+      "State__c": "Minnesota",
+      "Zip__c": 55412,
+      "Latitude__c": 45.035867,
+      "Longitude__c": -93.309374,
+      "Website__c": "http://www.iatp.org/minimarkets"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef93"
+      },
+      "Name": "Winter Farmers Market at Circa Restaurant",
+      "FMID__c": 1000125,
+      "Street__c": "76 Albany Street",
+      "City__c": "Cazenovia",
+      "County__c": "Madison",
+      "State__c": "New York",
+      "Zip__c": 13035,
+      "Latitude__c": 42.9296,
+      "Longitude__c": -75.8532,
+      "Website__c": "http://www.circarestaurant.net"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef95"
+      },
+      "Name": "Signal Mountain Farmers' Market",
+      "FMID__c": 1000130,
+      "Street__c": "2815 Anderson Pike",
+      "City__c": "Signal Mountain",
+      "County__c": "Hamilton",
+      "State__c": "Tennessee",
+      "Zip__c": 37377,
+      "Latitude__c": 35.163464,
+      "Longitude__c": -85.322198
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef97"
+      },
+      "Name": "Larimer County Farmers' Market",
+      "FMID__c": 1000133,
+      "Street__c": "200 W. Oak Street",
+      "City__c": "Fort Collins",
+      "County__c": "Larimer",
+      "State__c": "Colorado",
+      "Zip__c": 80521,
+      "Latitude__c": 40.58578,
+      "Longitude__c": -105.0798,
+      "Website__c": "http://www.larimercountyfarmersmarket.org",
+      "Twitter__c": "https://twitter.com/larimercountyfm"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef99"
+      },
+      "Name": "Garnett Farmers Market",
+      "FMID__c": 1000135,
+      "Street__c": "Downtown Garnett",
+      "City__c": "Garnett",
+      "County__c": "Anderson",
+      "State__c": "Kansas",
+      "Zip__c": 66032,
+      "Latitude__c": 38.2809,
+      "Longitude__c": -95.24
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef101"
+      },
+      "Name": "JACKSONVILLE ALABAMA FARMERS MARKET",
+      "FMID__c": 1000138,
+      "Street__c": "206 Ladiga St",
+      "City__c": "JACKSONVILLE",
+      "County__c": "Calhoun",
+      "State__c": "Alabama",
+      "Zip__c": 36265,
+      "Latitude__c": 33.813512,
+      "Longitude__c": -85.760351,
+      "Website__c": "http://www.jacksonvillealfarmersmarket.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef103"
+      },
+      "Name": "FarmersMarketPlace & More",
+      "FMID__c": 1000141,
+      "Street__c": "Main Street and 1st Avenue",
+      "City__c": "Little Falls",
+      "County__c": "Passaic",
+      "State__c": "New Jersey",
+      "Zip__c": 7424,
+      "Latitude__c": 40.88081,
+      "Longitude__c": -74.22453,
+      "Website__c": "http://www.abc-littlefalls.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef105"
+      },
+      "Name": "Gravette Farmers' Market",
+      "FMID__c": 1000151,
+      "Street__c": "110 Park Drive",
+      "City__c": "Gravette",
+      "County__c": "Benton",
+      "State__c": "Arkansas",
+      "Zip__c": 72736,
+      "Latitude__c": 36.4219834,
+      "Longitude__c": -94.4451148,
+      "Website__c": "http://www.cityofgravette-ar.gov/gravettefarmersmarket.html"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef107"
+      },
+      "Name": "Bloomingrove Produce Auction",
+      "FMID__c": 1000154,
+      "Street__c": "1091 Free Rd",
+      "City__c": "Shiloh",
+      "County__c": "Richland",
+      "State__c": "Ohio",
+      "Zip__c": 44878,
+      "Latitude__c": 40.9603,
+      "Longitude__c": -82.5544
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef109"
+      },
+      "Name": "Branch Brook Park Farmers Market",
+      "FMID__c": 1000156,
+      "Street__c": "Branch Brook Park at Lake Street",
+      "City__c": "Newark",
+      "County__c": "Essex",
+      "State__c": "New Jersey",
+      "Latitude__c": 40.7626,
+      "Longitude__c": -74.178,
+      "Website__c": "http://www.branchbrookpark.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef111"
+      },
+      "Name": "Coppell Farmers Market",
+      "FMID__c": 1000158,
+      "Street__c": "768 W. Main Street",
+      "City__c": "Coppell",
+      "County__c": "Dallas",
+      "State__c": "Texas",
+      "Zip__c": 75019,
+      "Latitude__c": 32.952867,
+      "Longitude__c": -97.007022,
+      "Website__c": "http://www.coppellfarmersmarket.org",
+      "Twitter__c": "https://twitter.com/coppellfm"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef113"
+      },
+      "Name": "Bruceton Mills Farmers Market",
+      "FMID__c": 1000161,
+      "Street__c": "Across from the Fire Hall",
+      "City__c": "Bruceton Mills",
+      "County__c": "Preston",
+      "State__c": "West Virginia",
+      "Zip__c": 26525,
+      "Latitude__c": 39.6587,
+      "Longitude__c": -79.6412
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef115"
+      },
+      "Name": "Simpsonville Farmers Market",
+      "FMID__c": 1000164,
+      "Street__c": "South St. & Curtis St.",
+      "City__c": "Simpsonville",
+      "County__c": "Greenville",
+      "State__c": "South Carolina",
+      "Zip__c": 29681,
+      "Latitude__c": 34.7365,
+      "Longitude__c": -82.2582
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef117"
+      },
+      "Name": "The Farmer's Market of Keene",
+      "FMID__c": 1000166,
+      "City__c": "Keene",
+      "County__c": "Cheshire",
+      "State__c": "New Hampshire",
+      "Zip__c": 3431,
+      "Latitude__c": 42.932303,
+      "Longitude__c": -72.279211,
+      "Website__c": "http://www.farmersmarketofkeene.com/"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef119"
+      },
+      "Name": "Buena Vista Community Market",
+      "FMID__c": 1000170,
+      "Street__c": "Magnolia Parking Lot",
+      "City__c": "Buena Vista",
+      "County__c": "Buena Vista",
+      "State__c": "Virginia",
+      "Zip__c": 24416,
+      "Latitude__c": 37.7373,
+      "Longitude__c": -79.3531,
+      "Website__c": "http://www.bvmarket.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef121"
+      },
+      "Name": "Farmer's Market at Piala's Nursery",
+      "FMID__c": 1000173,
+      "Street__c": "S39W27833 Genesee Rd.",
+      "City__c": "Waukesha",
+      "County__c": "Waukesha",
+      "State__c": "Wisconsin",
+      "Zip__c": 53189,
+      "Latitude__c": 42.973475,
+      "Longitude__c": -88.301861,
+      "Website__c": "http://pialasnursery.com/farmersmarket.php"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef123"
+      },
+      "Name": "North Raleigh Farmers' Market",
+      "FMID__c": 1000176,
+      "Street__c": "1145 Falls River Avenue",
+      "City__c": "Raleigh",
+      "County__c": "Wake",
+      "State__c": "North Carolina",
+      "Zip__c": 27614,
+      "Latitude__c": 35.906849,
+      "Longitude__c": -78.58866,
+      "Website__c": "http://www.northraleighfarmersmarket.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef125"
+      },
+      "Name": "Elko Downtown Business Association Farmer's Market",
+      "FMID__c": 1000179,
+      "Street__c": "5th and Commercial",
+      "City__c": "Elko",
+      "County__c": "Elko",
+      "State__c": "Nevada",
+      "Zip__c": 89801,
+      "Latitude__c": 40.8317,
+      "Longitude__c": -115.762,
+      "Website__c": "http://www.elkodowntown.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef127"
+      },
+      "Name": "The Regency Greenmarket",
+      "FMID__c": 1000181,
+      "Street__c": "860 Commerce Center Drive",
+      "City__c": "Jacksonville",
+      "County__c": "Duval",
+      "State__c": "Florida",
+      "Zip__c": 32225,
+      "Latitude__c": 30.3372,
+      "Longitude__c": -81.5501,
+      "Website__c": "http://www.thegreenmarkets.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef129"
+      },
+      "Name": "Kosciusko County Farmers' Market, LLC",
+      "FMID__c": 1000183,
+      "Street__c": "1400 Smith Street (Kosciusko County Fairgrounds)",
+      "City__c": "Warsaw",
+      "County__c": "Kosciusko",
+      "State__c": "Indiana",
+      "Zip__c": 46580,
+      "Latitude__c": 41.2322,
+      "Longitude__c": -85.8379
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef131"
+      },
+      "Name": "Sugar House Farmers Market",
+      "FMID__c": 1000186,
+      "Street__c": "2234 Highland Drive",
+      "City__c": "Salt Lake City",
+      "County__c": "Salt Lake",
+      "State__c": "Utah",
+      "Zip__c": 84106,
+      "Latitude__c": 40.722264,
+      "Longitude__c": -111.85908,
+      "Website__c": "http://www.sugarhousefarmersmarket.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef133"
+      },
+      "Name": "Ester Community Market",
+      "FMID__c": 1000189,
+      "Street__c": "Ester Community Park, Old Nenana Highway",
+      "City__c": "Ester",
+      "County__c": "Fairbanks North Star",
+      "State__c": "Alaska",
+      "Zip__c": 99725,
+      "Latitude__c": 64.8459,
+      "Longitude__c": -148.01,
+      "Website__c": "http://www.esteralaska.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef135"
+      },
+      "Name": "Riverside Farmers' Market",
+      "FMID__c": 1000194,
+      "Street__c": "10 Pine Ave.",
+      "City__c": "Riverside",
+      "County__c": "Cook",
+      "State__c": "Illinois",
+      "Zip__c": 60546,
+      "Latitude__c": 41.8277856,
+      "Longitude__c": -87.8201027,
+      "Website__c": "http://justeatlocal.wordpress.com/"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef137"
+      },
+      "Name": "Cool Spring Farmers Market",
+      "FMID__c": 1000197,
+      "Street__c": "10th and Jackson Street",
+      "City__c": "Wilmington",
+      "County__c": "New Castle",
+      "State__c": "Delaware",
+      "Zip__c": 19805,
+      "Latitude__c": 39.749416,
+      "Longitude__c": -75.5572862,
+      "Website__c": "http://www.westendnh.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef139"
+      },
+      "Name": "Town of Gate City Farmer's Market",
+      "FMID__c": 1000200,
+      "Street__c": "156 East Jackson Street",
+      "City__c": "Gate City",
+      "State__c": "Virginia",
+      "Zip__c": 24251,
+      "Latitude__c": 36.6392,
+      "Longitude__c": -82.5791,
+      "Website__c": "http://www.townofgatecity.com/"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef141"
+      },
+      "Name": "Rock Springs Farmers Market",
+      "FMID__c": 1000203,
+      "Street__c": "North Front Street, Depot Park",
+      "City__c": "Rock Springs",
+      "State__c": "Wyoming",
+      "Zip__c": 82901,
+      "Latitude__c": 41.5886,
+      "Longitude__c": -109.218
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef143"
+      },
+      "Name": "Bloomsburg Farmers Market",
+      "FMID__c": 1000208,
+      "Street__c": "Market Street at Main Street",
+      "City__c": "Bloomsburg",
+      "County__c": "Columbia",
+      "State__c": "Pennsylvania",
+      "Zip__c": 17815,
+      "Latitude__c": 41.00246,
+      "Longitude__c": -76.457784,
+      "Website__c": "http://www.bloomsburgpa.org/bloomsburg-farmers-market"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef145"
+      },
+      "Name": "Bruceton Farmers' Market",
+      "FMID__c": 1000211,
+      "Street__c": "Bruceton School Morgantown St.",
+      "City__c": "Bruceton Mills",
+      "County__c": "Preston",
+      "State__c": "West Virginia",
+      "Zip__c": 26525,
+      "Latitude__c": 39.661,
+      "Longitude__c": -79.6413,
+      "Website__c": "http://www.pcfamilyfit.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef147"
+      },
+      "Name": "Pomonok Community Run Farmers' Market",
+      "FMID__c": 1000213,
+      "Street__c": "67-09 Kissena Blvd",
+      "City__c": "Flushing",
+      "County__c": "Queens",
+      "State__c": "New York",
+      "Zip__c": 11367,
+      "Latitude__c": 40.7352888,
+      "Longitude__c": -73.8146481,
+      "Website__c": "http://www.qchnyc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef149"
+      },
+      "Name": "Lamoille Valley Year Round Farmers Artisan Market",
+      "FMID__c": 1000215,
+      "Street__c": "River Arts Center",
+      "City__c": "Morrisville",
+      "County__c": "Lamoille",
+      "State__c": "Vermont",
+      "Zip__c": 5661,
+      "Latitude__c": 44.5617,
+      "Longitude__c": -72.5984,
+      "Website__c": "http://www.farmersartisanmarket.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef151"
+      },
+      "Name": "Roy Wilkins Park Farmer's Market",
+      "FMID__c": 1000217,
+      "Street__c": "Merrick and Baisley Boulevards",
+      "City__c": "Queens",
+      "County__c": "Queens",
+      "State__c": "New York",
+      "Zip__c": 11434,
+      "Latitude__c": 40.6837255,
+      "Longitude__c": -73.7697577,
+      "Website__c": "http://www.harvesthomefm.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef153"
+      },
+      "Name": "White Plains Farmer's Market",
+      "FMID__c": 1000219,
+      "City__c": "White Plains",
+      "County__c": "Westchester",
+      "State__c": "New York",
+      "Zip__c": 10601,
+      "Latitude__c": 41.0319,
+      "Longitude__c": -73.7677
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef155"
+      },
+      "Name": "Topanga Canyon Certified Farmer's Market",
+      "FMID__c": 1000224,
+      "Street__c": "120 S. Topanga Canyon Blvd",
+      "City__c": "Topanga",
+      "County__c": "Los Angeles",
+      "State__c": "California",
+      "Zip__c": 90290,
+      "Latitude__c": 34.0906,
+      "Longitude__c": -118.605
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef157"
+      },
+      "Name": "The Convivium",
+      "FMID__c": 1000229,
+      "Street__c": "State Rd 1",
+      "City__c": "Leo",
+      "County__c": "Allen",
+      "State__c": "Indiana",
+      "Zip__c": 46765,
+      "Latitude__c": 41.229217,
+      "Longitude__c": -85.007583
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef159"
+      },
+      "Name": "University Of San Francisco FM",
+      "FMID__c": 1000233,
+      "Street__c": "650 Parker Ave.",
+      "City__c": "San Francisco",
+      "County__c": "San Francisco",
+      "State__c": "California",
+      "Latitude__c": 37.7756,
+      "Longitude__c": -122.452
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef161"
+      },
+      "Name": "Oneida County Public Market",
+      "FMID__c": 1000235,
+      "Street__c": "321 Main Street",
+      "City__c": "Utica",
+      "County__c": "Oneida",
+      "State__c": "New York",
+      "Zip__c": 13501,
+      "Latitude__c": 43.1039095,
+      "Longitude__c": -75.2238804,
+      "Website__c": "http://www.oneidacountymarket.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef163"
+      },
+      "Name": "Vantage Point Farmers Market",
+      "FMID__c": 1000237,
+      "Street__c": "51 Water Street",
+      "City__c": "Port Huron",
+      "County__c": "St. Clair",
+      "State__c": "Michigan",
+      "Zip__c": 48060,
+      "Latitude__c": 42.971745,
+      "Longitude__c": -82.419763,
+      "Website__c": "http://www.porthuronmarket.com/Main/Home.aspx"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef165"
+      },
+      "Name": "Market on the Square",
+      "FMID__c": 1000242,
+      "Street__c": "Cathedral Square",
+      "City__c": "Mobile",
+      "County__c": "Mobile",
+      "State__c": "Alabama",
+      "Zip__c": 36633,
+      "Latitude__c": 30.6494,
+      "Longitude__c": -88.1933
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef167"
+      },
+      "Name": "Haywood's Historic Farmers Market",
+      "FMID__c": 1000244,
+      "Street__c": "250 Pigeon Street",
+      "City__c": "Waynesville",
+      "County__c": "Haywood",
+      "State__c": "North Carolina",
+      "Zip__c": 28786,
+      "Latitude__c": 35.48551,
+      "Longitude__c": -82.984939,
+      "Website__c": "http://www.waynesvillefarmersmarket.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef169"
+      },
+      "Name": "City Market",
+      "FMID__c": 1000246,
+      "Street__c": "Railway Station - Corner of 8th and Woodmere Streets",
+      "City__c": "Traverse City",
+      "State__c": "Michigan",
+      "Zip__c": 49686,
+      "Latitude__c": 44.7592,
+      "Longitude__c": -85.6077,
+      "Website__c": "http://www.webrewstarbucks.com/CityMarket.html"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef171"
+      },
+      "Name": "Fenwick Island Farmers Market",
+      "FMID__c": 1000251,
+      "Street__c": "Coastal Highway & East Essex Street",
+      "City__c": "Fenwick Island",
+      "State__c": "Delaware",
+      "Zip__c": 19944,
+      "Latitude__c": 38.4604,
+      "Longitude__c": -75.0519,
+      "Website__c": "http://www.fenwickislandfarmersmarket.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef173"
+      },
+      "Name": "Blacksburg Farmers Market",
+      "FMID__c": 1000254,
+      "Street__c": "108 W Roanoke St, Suite 101",
+      "City__c": "Blacksburg",
+      "County__c": "Montgomery",
+      "State__c": "Virginia",
+      "Zip__c": 24060,
+      "Latitude__c": 37.229248,
+      "Longitude__c": -80.414503,
+      "Website__c": "http://www.blacksburgfarmersmarket.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef175"
+      },
+      "Name": "Farmers' Market at the Williamsville Mill",
+      "FMID__c": 1000256,
+      "Street__c": "56 E. Spring St",
+      "City__c": "Williamsville",
+      "County__c": "Erie",
+      "State__c": "New York",
+      "Zip__c": 14221,
+      "Latitude__c": 42.9637,
+      "Longitude__c": -78.7446
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef177"
+      },
+      "Name": "St. Cloud Area Farmers Market II",
+      "FMID__c": 1000259,
+      "Street__c": "Bremer Bank, 12th & Division",
+      "City__c": "St. Cloud",
+      "County__c": "Stearns",
+      "State__c": "Minnesota",
+      "Latitude__c": 45.6229,
+      "Longitude__c": -94.217
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef179"
+      },
+      "Name": "Creswell Farmers' Market",
+      "FMID__c": 1000262,
+      "Street__c": "64 W. Oregon Ave (1st St. and Oregon Ave.)",
+      "City__c": "Creswell",
+      "County__c": "Lane",
+      "State__c": "Oregon",
+      "Zip__c": 97426,
+      "Latitude__c": 43.918649,
+      "Longitude__c": -123.018482,
+      "Website__c": "http://www.creswellfarmersmarket.wordpress.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef181"
+      },
+      "Name": "Schuyler Farmers Market",
+      "FMID__c": 1000267,
+      "Street__c": "12th Street under the viaduct",
+      "City__c": "Howells",
+      "County__c": "Colfax",
+      "State__c": "Nebraska",
+      "Zip__c": 68641,
+      "Latitude__c": 41.6128,
+      "Longitude__c": -96.9639
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef183"
+      },
+      "Name": "Holmes County Farmers Market",
+      "FMID__c": 1000269,
+      "Street__c": "224 N. Clay Street",
+      "City__c": "St. Millersburg",
+      "County__c": "Holmes",
+      "State__c": "Ohio",
+      "Zip__c": 44654,
+      "Latitude__c": 40.5558,
+      "Longitude__c": -81.9173
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef185"
+      },
+      "Name": "CONECUH COUNTY FARMERS MARKET",
+      "FMID__c": 1000276,
+      "Street__c": "W Front Street",
+      "City__c": "EVERGREEN",
+      "County__c": "Conecuh",
+      "State__c": "Alabama",
+      "Zip__c": 36401,
+      "Latitude__c": 31.433057,
+      "Longitude__c": -86.956701
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef187"
+      },
+      "Name": "Amherst Farmers' Market",
+      "FMID__c": 1000284,
+      "Street__c": "Spring Street Parking Lot",
+      "City__c": "Amherst Center",
+      "County__c": "Hampshire",
+      "State__c": "Massachusetts",
+      "Zip__c": 1002,
+      "Latitude__c": 42.374858,
+      "Longitude__c": -72.519422,
+      "Website__c": "http://www.AmherstFarmersMarket.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef189"
+      },
+      "Name": "Andrews Farmers Market",
+      "FMID__c": 1000287,
+      "Street__c": "First Street",
+      "City__c": "Andrews",
+      "County__c": "Cherokee",
+      "State__c": "North Carolina",
+      "Latitude__c": 35.2027,
+      "Longitude__c": -83.8232,
+      "Website__c": "http://www.andrewsfarmersmarket.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef191"
+      },
+      "Name": "Otsiningo Park Farmers' Market",
+      "FMID__c": 1000290,
+      "Street__c": "1 Bevier St",
+      "City__c": "Binghamton",
+      "County__c": "Broome",
+      "State__c": "New York",
+      "Zip__c": 13905,
+      "Latitude__c": 42.1265,
+      "Longitude__c": -75.9031
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef193"
+      },
+      "Name": "Newark Valley Farmers Market",
+      "FMID__c": 1000292,
+      "Street__c": "Route 38",
+      "City__c": "Newark Valley",
+      "County__c": "Tioga",
+      "State__c": "New York",
+      "Zip__c": 13811,
+      "Latitude__c": 42.223179,
+      "Longitude__c": -76.183963
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef195"
+      },
+      "Name": "Arnold-Mountain Growers Farmers Market",
+      "FMID__c": 1000294,
+      "Street__c": "Cedar Center, Hwy. 4 & Oak Circle",
+      "City__c": "Murphys",
+      "County__c": "Calaveras",
+      "State__c": "California",
+      "Zip__c": 95247,
+      "Latitude__c": 38.239,
+      "Longitude__c": -120.362
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef197"
+      },
+      "Name": "New Hope Community Farmers Market",
+      "FMID__c": 1000298,
+      "Street__c": "4300 Xylon Avenue N",
+      "City__c": "New Hope",
+      "County__c": "Hennepin",
+      "State__c": "Minnesota",
+      "Zip__c": 55428,
+      "Latitude__c": 45.03428,
+      "Longitude__c": -93.38403,
+      "Website__c": "http://www.newhopemarket.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef199"
+      },
+      "Name": "City of Plymouth Farmers Market",
+      "FMID__c": 1000303,
+      "Street__c": "3650 Plymouth Blvd",
+      "City__c": "Plymouth",
+      "County__c": "Hennepin",
+      "State__c": "Minnesota",
+      "Zip__c": 55447,
+      "Latitude__c": 45.023297,
+      "Longitude__c": -93.477256,
+      "Website__c": "http://www.plymouthmn.gov"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef201"
+      },
+      "Name": "Laramie Local Community Market",
+      "FMID__c": 1000307,
+      "Street__c": "7th and Ord",
+      "City__c": "Laramie",
+      "County__c": "Albany",
+      "State__c": "Wyoming",
+      "Zip__c": 82070,
+      "Latitude__c": 41.3041486,
+      "Longitude__c": -105.5890518,
+      "Website__c": "http://www.laramieloco.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef203"
+      },
+      "Name": "Green Gate Farms",
+      "FMID__c": 1000310,
+      "Street__c": "8310 Canoga Avenue",
+      "City__c": "Austin",
+      "County__c": "Travis",
+      "State__c": "Texas",
+      "Zip__c": 78724,
+      "Latitude__c": 30.285,
+      "Longitude__c": -97.6353,
+      "Website__c": "http://www.greengatefarms.net"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef205"
+      },
+      "Name": "Ranchester Farmers Market",
+      "FMID__c": 1000313,
+      "Street__c": "Community Center",
+      "City__c": "Ranchester",
+      "State__c": "Wyoming",
+      "Zip__c": 82839,
+      "Latitude__c": 44.9096,
+      "Longitude__c": -107.166
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef207"
+      },
+      "Name": "Ouray Farmers' Market",
+      "FMID__c": 1000315,
+      "Street__c": "Ouray Elks Centennial Park",
+      "City__c": "Ouray",
+      "County__c": "Ouray",
+      "State__c": "Colorado",
+      "Latitude__c": 38.022,
+      "Longitude__c": -107.672,
+      "Website__c": "http://www.ourayfarmersmarket.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef209"
+      },
+      "Name": "Hopkins Farmers Market",
+      "FMID__c": 1000323,
+      "Street__c": "16 9th Ave S",
+      "City__c": "Hopkins",
+      "County__c": "Hennepin",
+      "State__c": "Minnesota",
+      "Zip__c": 55343,
+      "Latitude__c": 44.92377,
+      "Longitude__c": -93.41175,
+      "Website__c": "http://www.hopkinsfarmersmarket.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef211"
+      },
+      "Name": "Wentzville Farmers Market",
+      "FMID__c": 1000327,
+      "Street__c": "5 W Pearce Blvd, Downtown",
+      "City__c": "Wentzville",
+      "County__c": "St. Charles",
+      "State__c": "Missouri",
+      "Latitude__c": 38.8122,
+      "Longitude__c": -90.8536,
+      "Website__c": "http://www.wentzvillechamber.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef213"
+      },
+      "Name": "SEIGLER FARMS",
+      "FMID__c": 1000331,
+      "Street__c": "Omega and Main Streets",
+      "City__c": "Henrietta",
+      "County__c": "Clay",
+      "State__c": "Texas",
+      "Zip__c": 76365,
+      "Latitude__c": 33.8148,
+      "Longitude__c": -98.1963
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef215"
+      },
+      "Name": "Manteca Certified Farmers Market",
+      "FMID__c": 1000334,
+      "Street__c": "100 Manteca Avenue",
+      "City__c": "Manteca",
+      "County__c": "San Joaquin",
+      "State__c": "California",
+      "Zip__c": 95337,
+      "Latitude__c": 37.7977403,
+      "Longitude__c": -121.2198502,
+      "Website__c": "http://www.visitmanteca.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef217"
+      },
+      "Name": "rockville centre farmers market",
+      "FMID__c": 1000342,
+      "Street__c": "sunrise high/long beach road",
+      "City__c": "rockville centre",
+      "County__c": "Suffolk",
+      "State__c": "New York",
+      "Zip__c": 11571,
+      "Latitude__c": 40.6652431,
+      "Longitude__c": -73.6278794,
+      "Website__c": "http://www.loriherbelfarmersmarkets.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef219"
+      },
+      "Name": "Locust Valley Farmers Market",
+      "FMID__c": 1000346,
+      "Street__c": "Forest Ave, across from Post Office",
+      "City__c": "Locust Valley",
+      "County__c": "Nassau",
+      "State__c": "New York",
+      "Latitude__c": 40.875,
+      "Longitude__c": -73.6056
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef221"
+      },
+      "Name": "Port Jefferson Farmers Market",
+      "FMID__c": 1000348,
+      "Street__c": "Parking lot next to Ferry, Rt 25A",
+      "City__c": "Port Jefferson",
+      "County__c": "Suffolk",
+      "State__c": "New York",
+      "Zip__c": 11777,
+      "Latitude__c": 40.8786,
+      "Longitude__c": -72.8546
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef223"
+      },
+      "Name": "Huntington Village Farmers Market",
+      "FMID__c": 1000350,
+      "Street__c": "Main St (Rt 25A), east of Route 110 North",
+      "City__c": "Huntington Village",
+      "County__c": "Suffolk",
+      "State__c": "New York",
+      "Latitude__c": 40.8712,
+      "Longitude__c": -73.4263
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef225"
+      },
+      "Name": "Central NY Regional Market",
+      "FMID__c": 1000352,
+      "Street__c": "2100 Park St,",
+      "City__c": "Syracuse",
+      "County__c": "Onondaga",
+      "State__c": "New York",
+      "Zip__c": 13208,
+      "Latitude__c": 43.0727,
+      "Longitude__c": -76.1684
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef227"
+      },
+      "Name": "City of Au Gres Downtown Farmers Market",
+      "FMID__c": 1000354,
+      "Street__c": "501 Park Street",
+      "City__c": "Au Gres",
+      "County__c": "Arenac",
+      "State__c": "Michigan",
+      "Latitude__c": 44.05,
+      "Longitude__c": -83.6878
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef229"
+      },
+      "Name": "Irondale Farmers Market",
+      "FMID__c": 1000356,
+      "Street__c": "1906 1st Ave N",
+      "City__c": "Irondale",
+      "County__c": "Jefferson",
+      "State__c": "Alabama",
+      "Zip__c": 35210,
+      "Latitude__c": 33.5388,
+      "Longitude__c": -86.7083
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef231"
+      },
+      "Name": "Switzerland County Farmers Market",
+      "FMID__c": 1000359,
+      "Street__c": "Courthouse Square on Main",
+      "City__c": "Vevay",
+      "County__c": "Switzerland",
+      "State__c": "Indiana",
+      "Zip__c": 47043,
+      "Latitude__c": 39.0906,
+      "Longitude__c": -84.8522
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef233"
+      },
+      "Name": "State Center Farmers Market",
+      "FMID__c": 1000361,
+      "Street__c": "100 block of West Main Street",
+      "City__c": "State Center",
+      "County__c": "Marshall",
+      "State__c": "Iowa",
+      "Zip__c": 50247,
+      "Latitude__c": 42.016469,
+      "Longitude__c": -93.164577
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef235"
+      },
+      "Name": "Miranda Farmers Market",
+      "FMID__c": 1000364,
+      "Street__c": "6743 Ave.",
+      "City__c": "Miranda",
+      "County__c": "HUMBOLDT",
+      "State__c": "California",
+      "Latitude__c": 40.237,
+      "Longitude__c": -123.824
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef237"
+      },
+      "Name": "Marinette Farmers Market",
+      "FMID__c": 1000366,
+      "Street__c": "Main St & Wells St.",
+      "City__c": "Marinette",
+      "County__c": "Marinette",
+      "State__c": "Wisconsin",
+      "Zip__c": 54143,
+      "Latitude__c": 45.0985,
+      "Longitude__c": -87.6279
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef239"
+      },
+      "Name": "Country Lane Farmers Market",
+      "FMID__c": 1000368,
+      "Street__c": "1642 16th St",
+      "City__c": "Barron",
+      "County__c": "Barron",
+      "State__c": "Wisconsin",
+      "Zip__c": 54812,
+      "Latitude__c": 45.443768,
+      "Longitude__c": -91.828516
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef241"
+      },
+      "Name": "Tacoma Farmers Markets - 6th Avenue",
+      "FMID__c": 1000372,
+      "Street__c": "6th & Pine Street",
+      "City__c": "Tacoma",
+      "County__c": "Pierce",
+      "State__c": "Washington",
+      "Zip__c": 98406,
+      "Latitude__c": 47.0233,
+      "Longitude__c": -122.103,
+      "Website__c": "http://www.tacomafarmersmarket.com",
+      "Twitter__c": "https://twitter.com/TacomasMarkets"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef243"
+      },
+      "Name": "Tacoma Farmers Markets - South Tacoma",
+      "FMID__c": 1000374,
+      "Street__c": "Broadway between 9th & 11th Streets",
+      "City__c": "Tacoma",
+      "County__c": "Pierce",
+      "State__c": "Washington",
+      "Zip__c": 98402,
+      "Latitude__c": 47.2547,
+      "Longitude__c": -122.441,
+      "Website__c": "http://www.tacomafarmersmarket.com",
+      "Twitter__c": "https://twitter.com/TacomasMarkets"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef245"
+      },
+      "Name": "Fairview Farmers Market",
+      "FMID__c": 1000376,
+      "Street__c": "Off of Collins Ave., N. on Alabama",
+      "City__c": "Fairview",
+      "County__c": "Camden",
+      "State__c": "New Jersey",
+      "Zip__c": 7022,
+      "Latitude__c": 40.8126,
+      "Longitude__c": -73.999
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef247"
+      },
+      "Name": "Sycamore Spring Farm Market",
+      "FMID__c": 1000379,
+      "Street__c": "6003 Elmer Derr Road",
+      "City__c": "Frederick",
+      "County__c": "Frederick",
+      "State__c": "Maryland",
+      "Zip__c": 21703,
+      "Latitude__c": 39.3753414,
+      "Longitude__c": -77.459718,
+      "Website__c": "http://www.sycamorespringfarm.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef249"
+      },
+      "Name": "Taylor's Farm Market",
+      "FMID__c": 1000383,
+      "Street__c": "178 Pilgrim Street",
+      "City__c": "Inwood",
+      "County__c": "Berkeley",
+      "State__c": "West Virginia",
+      "Zip__c": 25428,
+      "Latitude__c": 39.361254,
+      "Longitude__c": -78.042739,
+      "Website__c": "http://www.taylorfarmsmarket.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef251"
+      },
+      "Name": "Northport Farmers Market",
+      "FMID__c": 1000392,
+      "Street__c": "Cow Harbor Parking Lot at the Harbor",
+      "City__c": "Northport",
+      "County__c": "Suffolk",
+      "State__c": "New York",
+      "Zip__c": 11768,
+      "Latitude__c": 40.899796,
+      "Longitude__c": -73.351584,
+      "Website__c": "http://www.northportfarmersmarket.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef253"
+      },
+      "Name": "Fairview Farmers Market",
+      "FMID__c": 1000394,
+      "Street__c": "Fairview Avenue",
+      "City__c": "Montgomery",
+      "County__c": "Montgomery",
+      "State__c": "Alabama",
+      "Zip__c": 36108,
+      "Latitude__c": 32.3465,
+      "Longitude__c": -86.363
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef255"
+      },
+      "Name": "Ashboro Downtown Farmers Market",
+      "FMID__c": 1000397,
+      "Street__c": "134 South Church Street",
+      "City__c": "Asheboro",
+      "County__c": "Randolph",
+      "State__c": "North Carolina",
+      "Zip__c": 28801,
+      "Latitude__c": 35.7049,
+      "Longitude__c": -79.8175
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef257"
+      },
+      "Name": "West Fork Farmers Market",
+      "FMID__c": 1000400,
+      "Street__c": "Campbell Loop",
+      "City__c": "West Fork",
+      "County__c": "Washington",
+      "State__c": "Arkansas",
+      "Zip__c": 72774,
+      "Latitude__c": 35.98,
+      "Longitude__c": -94.2147
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef259"
+      },
+      "Name": "Noodles Market",
+      "FMID__c": 1000402,
+      "Street__c": "932 Main Street",
+      "City__c": "Smithfield",
+      "County__c": "Jefferson",
+      "State__c": "Ohio",
+      "Zip__c": 43948,
+      "Latitude__c": 40.2691,
+      "Longitude__c": -80.7825
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef261"
+      },
+      "Name": "Clark Fork Market",
+      "FMID__c": 1000406,
+      "Street__c": "225 South Pattee Street, Riverside Parking Lot",
+      "City__c": "Missoula",
+      "County__c": "Missoula",
+      "State__c": "Montana",
+      "Zip__c": 59802,
+      "Latitude__c": 46.8787176,
+      "Longitude__c": -113.996586,
+      "Website__c": "http://www.clarkforkmarket.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef263"
+      },
+      "Name": "Safford Farmers' Market",
+      "FMID__c": 1000409,
+      "Street__c": "Firth Park in Safford, AZ Highway 70",
+      "City__c": "Safford",
+      "County__c": "Graham",
+      "State__c": "Arizona",
+      "Zip__c": 85546,
+      "Latitude__c": 32.834595,
+      "Longitude__c": -109.720004,
+      "Website__c": "http://www.safford.net/farmers.html"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef265"
+      },
+      "Name": "Towns County Farmers Market",
+      "FMID__c": 1000411,
+      "Street__c": "Hwy 76 West",
+      "City__c": "Hiawassee",
+      "County__c": "Towns",
+      "State__c": "Georgia",
+      "Zip__c": 30546,
+      "Latitude__c": 34.963227,
+      "Longitude__c": -83.771331
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef267"
+      },
+      "Name": "West Frankfort Farmers Market",
+      "FMID__c": 1000413,
+      "Street__c": "1002 E Cleveland St",
+      "City__c": "West Frankfort",
+      "State__c": "Illinois",
+      "Zip__c": 62896,
+      "Latitude__c": 37.892,
+      "Longitude__c": -88.9166
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef269"
+      },
+      "Name": "Yarker at Beach Gardens",
+      "FMID__c": 1000416,
+      "City__c": "Beach",
+      "County__c": "Golden Valley",
+      "State__c": "North Dakota",
+      "Latitude__c": 47.0424,
+      "Longitude__c": -104.005
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef271"
+      },
+      "Name": "Memorial Park Farmers Market",
+      "FMID__c": 1000418,
+      "Street__c": "Union Blvd. & Pikes Peak Ave.",
+      "City__c": "Colorado Springs",
+      "State__c": "Colorado",
+      "Latitude__c": 38.833,
+      "Longitude__c": -104.795
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef273"
+      },
+      "Name": "Stateville Rotary Farmers Market",
+      "FMID__c": 1000420,
+      "Street__c": "East Sharpe Street",
+      "City__c": "Statesville",
+      "County__c": "Iredell",
+      "State__c": "North Carolina",
+      "Zip__c": 28677,
+      "Latitude__c": 35.7725,
+      "Longitude__c": -80.9019
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef275"
+      },
+      "Name": "Reny's Farmers' Market",
+      "FMID__c": 1000425,
+      "Street__c": "Reny's Plaza parking lot at the junction of Routes 1 and 3.",
+      "City__c": "Belfast",
+      "County__c": "Waldo",
+      "State__c": "Maine",
+      "Latitude__c": 44.4259,
+      "Longitude__c": -69.0064
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef277"
+      },
+      "Name": "Rice Lake Farmers Market",
+      "FMID__c": 1000427,
+      "Street__c": "N. Main Street",
+      "City__c": "Rice Lake",
+      "County__c": "Barron",
+      "State__c": "Wisconsin",
+      "Zip__c": 54868,
+      "Latitude__c": 45.5013,
+      "Longitude__c": -91.7334
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef279"
+      },
+      "Name": "The Virginia Grown Farmers Market at the Olde Dominion Agriculture Complex",
+      "FMID__c": 1000429,
+      "Street__c": "19783 US Hwy. 29 South",
+      "City__c": "Chatham",
+      "County__c": "Pittsylvania",
+      "State__c": "Virginia",
+      "Zip__c": 24531,
+      "Latitude__c": 36.864529,
+      "Longitude__c": -79.403628
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef281"
+      },
+      "Name": "Appleton Downtown Farm Market",
+      "FMID__c": 1000431,
+      "Street__c": "100 College Avenue",
+      "City__c": "Appleton",
+      "County__c": "Outagamie",
+      "State__c": "Wisconsin",
+      "Zip__c": 54911,
+      "Latitude__c": 44.26201,
+      "Longitude__c": -88.40703,
+      "Website__c": "http://www.appletondowntown.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef283"
+      },
+      "Name": "Anthony Farmers Market",
+      "FMID__c": 1000434,
+      "Street__c": "Corner of West Main and Lawrence",
+      "City__c": "Anthony",
+      "County__c": "Harper",
+      "State__c": "Kansas",
+      "Zip__c": 67003,
+      "Latitude__c": 37.1521,
+      "Longitude__c": -98.038
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef285"
+      },
+      "Name": "Bastrop 1832 Farmers Market",
+      "FMID__c": 1000436,
+      "Street__c": "1302 Chestnut Street",
+      "City__c": "Bastrop",
+      "County__c": "Bastrop",
+      "State__c": "Texas",
+      "Zip__c": 78602,
+      "Latitude__c": 30.110719,
+      "Longitude__c": -97.312067,
+      "Website__c": "http://www.bastrop1832farmersmarket.org",
+      "Twitter__c": "https://twitter.com/bastrop1832"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef287"
+      },
+      "Name": "Springfield Recreation Area Farmers Market",
+      "FMID__c": 1000438,
+      "Street__c": "3983 Lund Road",
+      "City__c": "Fife Lake",
+      "County__c": "Kalkaska",
+      "State__c": "Michigan",
+      "Zip__c": 49633,
+      "Latitude__c": 44.5409,
+      "Longitude__c": -85.2538
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef289"
+      },
+      "Name": "Olde School Farmers Market",
+      "FMID__c": 1000440,
+      "Street__c": "1259 Washington Street",
+      "City__c": "Brushton",
+      "County__c": "Franklin",
+      "State__c": "New York",
+      "Latitude__c": 44.8301,
+      "Longitude__c": -74.514
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef291"
+      },
+      "Name": "Bird-in-Hand Farmers Market",
+      "FMID__c": 1000443,
+      "Street__c": "2710 Old Philadelphia Pike",
+      "City__c": "Bird-in-Hand",
+      "County__c": "Lancaster",
+      "State__c": "Pennsylvania",
+      "Zip__c": 17505,
+      "Latitude__c": 40.1067,
+      "Longitude__c": -76.0308,
+      "Website__c": "http://www.BirdInHandFarmersMarket.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef293"
+      },
+      "Name": "Strawberry Point Farmers Market",
+      "FMID__c": 1000446,
+      "Street__c": "Inger Park",
+      "City__c": "Strawberry Point",
+      "County__c": "Clayton",
+      "State__c": "Iowa",
+      "Zip__c": 52076,
+      "Latitude__c": 42.6963,
+      "Longitude__c": -91.5135
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef295"
+      },
+      "Name": "Rugby Chamber Farmers Market",
+      "FMID__c": 1000450,
+      "Street__c": "Junction Hwy. 2 & 3",
+      "City__c": "Rugby",
+      "County__c": "Pierce",
+      "State__c": "North Dakota",
+      "Zip__c": 58368,
+      "Latitude__c": 48.3548,
+      "Longitude__c": -99.9987,
+      "Website__c": "http://www.rugbynorthdakota.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef297"
+      },
+      "Name": "Downtown Hampton Farmers Market",
+      "FMID__c": 1000453,
+      "City__c": "Hampton",
+      "State__c": "Virginia",
+      "Latitude__c": 37.0125,
+      "Longitude__c": -76.3232,
+      "Website__c": "http://www.downtownhampton.com/farmersmarket/"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef299"
+      },
+      "Name": "Wapakoneta Farmers' Market",
+      "FMID__c": 1000455,
+      "Street__c": "Behind Town By Auglaize River",
+      "City__c": "Wapakoneta",
+      "County__c": "Auglaize",
+      "State__c": "Ohio",
+      "Zip__c": 45895,
+      "Latitude__c": 40.571217,
+      "Longitude__c": -84.193602
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef301"
+      },
+      "Name": "Hollidaysburg Farmers Market",
+      "FMID__c": 1000457,
+      "Street__c": "On the Diamond",
+      "City__c": "Hollidaysburg",
+      "County__c": "Blair",
+      "State__c": "Pennsylvania",
+      "Latitude__c": 40.4273,
+      "Longitude__c": -78.3889
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef303"
+      },
+      "Name": "Poplar Head Farmers Market",
+      "FMID__c": 1000460,
+      "Street__c": "126 North St Andrews Street",
+      "City__c": "Dothan",
+      "County__c": "Houston",
+      "State__c": "Alabama",
+      "Zip__c": 36301,
+      "Latitude__c": 31.223592,
+      "Longitude__c": -85.390463,
+      "Website__c": "http://www.poplarheadfarmersmarket.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef305"
+      },
+      "Name": "Loveland Farmers' Market",
+      "FMID__c": 1000462,
+      "Street__c": "205 Broadway Street",
+      "City__c": "Loveland",
+      "County__c": "Clermont",
+      "State__c": "Ohio",
+      "Zip__c": 45140,
+      "Latitude__c": 39.266388,
+      "Longitude__c": -84.259924,
+      "Website__c": "http://www.lovelandfm.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef307"
+      },
+      "Name": "Atlantic Farmers Market",
+      "FMID__c": 1000464,
+      "Street__c": "1200 7th Street E.",
+      "City__c": "Atlantic",
+      "County__c": "Cass",
+      "State__c": "Iowa",
+      "Zip__c": 50022,
+      "Latitude__c": 41.4043,
+      "Longitude__c": -94.9965
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef309"
+      },
+      "Name": "Ebenezer Lutheran Church Farmers Market",
+      "FMID__c": 1000466,
+      "Street__c": "1301 Richland Street",
+      "City__c": "Columbia",
+      "County__c": "Richland",
+      "State__c": "South Carolina",
+      "Zip__c": 29201,
+      "Latitude__c": 34.0112,
+      "Longitude__c": -81.0361,
+      "Website__c": "http://www.ebenezerlutheran.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef311"
+      },
+      "Name": "Unitarian Universal Fellowship Farmers Market",
+      "FMID__c": 1000468,
+      "Street__c": "2701 Heyward Street",
+      "City__c": "Columbia",
+      "County__c": "Richland",
+      "State__c": "South Carolina",
+      "Zip__c": 29205,
+      "Latitude__c": 33.9908,
+      "Longitude__c": -81.0062,
+      "Website__c": "http://www.uu.columbiafc.uua.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef313"
+      },
+      "Name": "Shandon United Methodist Church Farmers Market",
+      "FMID__c": 1000471,
+      "Street__c": "3407 Devine Street",
+      "City__c": "Columbia",
+      "County__c": "Richland",
+      "State__c": "South Carolina",
+      "Zip__c": 29205,
+      "Latitude__c": 33.9974,
+      "Longitude__c": -80.9925
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef315"
+      },
+      "Name": "Virginia Wingard United Methodist Farmers Market",
+      "FMID__c": 1000474,
+      "Street__c": "1500 Broad River Road",
+      "City__c": "Columbia",
+      "County__c": "Richland",
+      "State__c": "South Carolina",
+      "Zip__c": 29210,
+      "Latitude__c": 34.0309,
+      "Longitude__c": -81.0867
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef317"
+      },
+      "Name": "Lutheran Church of the Resurrection-Seeds of Hope",
+      "FMID__c": 1000477,
+      "Street__c": "3707 Moss Ave.",
+      "City__c": "Columbia",
+      "County__c": "Richland",
+      "State__c": "South Carolina",
+      "Zip__c": 29205,
+      "Latitude__c": 33.9868,
+      "Longitude__c": -80.9901
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef319"
+      },
+      "Name": "Madison County Farmers Market",
+      "FMID__c": 1000481,
+      "Street__c": "112 N. John Wayne Dr.",
+      "City__c": "Winterset",
+      "County__c": "Madison",
+      "State__c": "Iowa",
+      "Zip__c": 50273,
+      "Latitude__c": 41.335222,
+      "Longitude__c": -94.013604
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef321"
+      },
+      "Name": "New Sharon Farmers' Market",
+      "FMID__c": 1000483,
+      "Street__c": "Rt. 2 and Rt. 27",
+      "City__c": "New Sharon",
+      "County__c": "Franklin",
+      "State__c": "Maine",
+      "Zip__c": 4955,
+      "Latitude__c": 44.6533,
+      "Longitude__c": -70.129
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef323"
+      },
+      "Name": "Shore Fresh Growers Farmers Markets",
+      "FMID__c": 1000485,
+      "Street__c": "Rt 13 & Market St",
+      "City__c": "Salisbury",
+      "County__c": "Wicomico",
+      "State__c": "Maryland",
+      "Zip__c": 21801,
+      "Latitude__c": 38.364878,
+      "Longitude__c": -75.596859
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef325"
+      },
+      "Name": "Springville Farmers Market",
+      "FMID__c": 1000488,
+      "Street__c": "Gentner Auction, 341 West Main St",
+      "City__c": "Springville",
+      "County__c": "Erie",
+      "State__c": "New York",
+      "Latitude__c": 42.5106,
+      "Longitude__c": -78.6797
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef327"
+      },
+      "Name": "Montezuma Winery Farmers Market",
+      "FMID__c": 1000493,
+      "Street__c": "2981 U.S. Route 20",
+      "City__c": "Seneca Falls",
+      "County__c": "Seneca",
+      "State__c": "New York",
+      "Zip__c": 13148,
+      "Latitude__c": 42.949952,
+      "Longitude__c": -76.767311,
+      "Website__c": "http://www.montezumawinery.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef329"
+      },
+      "Name": "New Lenox Farmers Market",
+      "FMID__c": 1000495,
+      "Street__c": "1 Veterans Parkway",
+      "City__c": "New Lenox",
+      "County__c": "Will",
+      "State__c": "Illinois",
+      "Zip__c": 60451,
+      "Latitude__c": 41.5142,
+      "Longitude__c": -87.9799,
+      "Website__c": "http://www.newlenox.net"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef331"
+      },
+      "Name": "Burke County Farmer's Market II",
+      "FMID__c": 1000503,
+      "Street__c": "Faett Street",
+      "City__c": "Valdese",
+      "County__c": "Burke",
+      "State__c": "North Carolina",
+      "Zip__c": 28690,
+      "Latitude__c": 35.742685,
+      "Longitude__c": -81.564792
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef333"
+      },
+      "Name": "Keosauqua Farmers Market",
+      "FMID__c": 1000506,
+      "Street__c": "In front of M & B Repair, Hwy 1 North",
+      "City__c": "Keosauqua",
+      "County__c": "Van Buren",
+      "State__c": "Iowa",
+      "Zip__c": 52565,
+      "Latitude__c": 40.7246,
+      "Longitude__c": -91.9552
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef335"
+      },
+      "Name": "Market on the Square",
+      "FMID__c": 1000508,
+      "Street__c": "Hwy 18E and Hwy 19N",
+      "City__c": "Zebulon",
+      "County__c": "Pike",
+      "State__c": "Georgia",
+      "Zip__c": 30295,
+      "Latitude__c": 33.1023,
+      "Longitude__c": -84.3424
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef337"
+      },
+      "Name": "Natrona County Master Gardeners Farmers' Market",
+      "FMID__c": 1000511,
+      "Street__c": "2011 Fairgrounds Road",
+      "City__c": "Casper",
+      "County__c": "Natrona",
+      "State__c": "Wyoming",
+      "Zip__c": 82604,
+      "Latitude__c": 42.8287,
+      "Longitude__c": -106.363
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef339"
+      },
+      "Name": "Rudd Farmers Market",
+      "FMID__c": 1000514,
+      "Street__c": "City Park by the Library",
+      "City__c": "Rudd",
+      "County__c": "Floyd",
+      "State__c": "Iowa",
+      "Zip__c": 50471,
+      "Latitude__c": 43.1282,
+      "Longitude__c": -92.9022
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef341"
+      },
+      "Name": "Seneca Farmers Market",
+      "FMID__c": 1000517,
+      "Street__c": "11th & Elk St.",
+      "City__c": "Seneca",
+      "State__c": "Kansas",
+      "Zip__c": 66538,
+      "Latitude__c": 39.8383,
+      "Longitude__c": -96.0707
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef343"
+      },
+      "Name": "Alexandria Bay Farmers Market",
+      "FMID__c": 1000519,
+      "Street__c": "Route 12",
+      "City__c": "Alexandria Bay",
+      "County__c": "Jefferson",
+      "State__c": "New York",
+      "Zip__c": 13607,
+      "Latitude__c": 44.3314,
+      "Longitude__c": -75.9157,
+      "Website__c": "http://www.visitalexbay.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef345"
+      },
+      "Name": "Great Mall CFM",
+      "FMID__c": 1000522,
+      "Street__c": "1100 Great Mall Drive",
+      "City__c": "Milipitas",
+      "County__c": "Santa Clara",
+      "State__c": "California",
+      "Zip__c": 95035,
+      "Latitude__c": 37.41196,
+      "Longitude__c": -121.896894
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef347"
+      },
+      "Name": "Waupun Area Farmers Market",
+      "FMID__c": 1000524,
+      "Street__c": "503 East Spring Street",
+      "City__c": "Waupun",
+      "County__c": "Fond du Lac",
+      "State__c": "Wisconsin",
+      "Zip__c": 53963,
+      "Latitude__c": 43.64074,
+      "Longitude__c": -88.722663,
+      "Website__c": "http://www.waupunchamber.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef349"
+      },
+      "Name": "MBD Community Park Farmers Market",
+      "FMID__c": 1000526,
+      "Street__c": "1710 Southern Blvd",
+      "City__c": "New York City",
+      "County__c": "Bronx",
+      "State__c": "New York",
+      "Latitude__c": 40.8364,
+      "Longitude__c": -73.888
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef351"
+      },
+      "Name": "Pickens County Farmers Market",
+      "FMID__c": 1000528,
+      "Street__c": "25661 Highway 17 N",
+      "City__c": "Carollton",
+      "County__c": "Pickens",
+      "State__c": "Alabama",
+      "Zip__c": 35447,
+      "Latitude__c": 33.275534,
+      "Longitude__c": -88.093797
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef353"
+      },
+      "Name": "Chico Wednesday Farmers Market",
+      "FMID__c": 1000531,
+      "Street__c": "North Valley Plaza, East Ave. & Pillsbury Rd.",
+      "City__c": "Chico",
+      "County__c": "Butte",
+      "State__c": "California",
+      "Zip__c": 95973,
+      "Latitude__c": 39.7606,
+      "Longitude__c": -121.848
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef355"
+      },
+      "Name": "Mount Elgon Farmers Market",
+      "FMID__c": 1000535,
+      "Street__c": "411 Martin Luther King Jr.",
+      "City__c": "Bakersfield",
+      "County__c": "Kern",
+      "State__c": "California",
+      "Zip__c": 93307,
+      "Latitude__c": 35.3615,
+      "Longitude__c": -118.985
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef357"
+      },
+      "Name": "Brimhall CFM",
+      "FMID__c": 1000541,
+      "Street__c": "9500 Brimhall Road",
+      "City__c": "Bakersfield",
+      "County__c": "KERN",
+      "State__c": "California",
+      "Latitude__c": 35.3696,
+      "Longitude__c": -119.108
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef359"
+      },
+      "Name": "Ninety Six Farmers Market",
+      "FMID__c": 1000544,
+      "Street__c": "SC Hwy 34 & Cane Bridge St",
+      "City__c": "Ninety Six",
+      "County__c": "Greenwood",
+      "State__c": "South Carolina",
+      "Zip__c": 29666,
+      "Latitude__c": 34.1751,
+      "Longitude__c": -82.0231
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef361"
+      },
+      "Name": "Friday Farmers Market",
+      "FMID__c": 1000546,
+      "Street__c": "1st & College",
+      "City__c": "Cheney",
+      "County__c": "Spokane",
+      "State__c": "Washington",
+      "Zip__c": 99004,
+      "Latitude__c": 47.4876,
+      "Longitude__c": -117.575
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef363"
+      },
+      "Name": "Clio Market",
+      "FMID__c": 1000549,
+      "Street__c": "21 College Street",
+      "City__c": "Clio",
+      "County__c": "Barbour",
+      "State__c": "Alabama",
+      "Zip__c": 36311,
+      "Latitude__c": 31.7078144,
+      "Longitude__c": -85.619065
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef365"
+      },
+      "Name": "Florala Farmers Market",
+      "FMID__c": 1000552,
+      "Street__c": "Behind Train Depot",
+      "City__c": "Florala",
+      "County__c": "Covington",
+      "State__c": "Alabama",
+      "Zip__c": 36442,
+      "Latitude__c": 31.0063,
+      "Longitude__c": -86.3252
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef367"
+      },
+      "Name": "Ohio Valley Fruit & Vegetable Growers Asociation",
+      "FMID__c": 1000554,
+      "Street__c": "1025 Lila Avenue",
+      "City__c": "Milford",
+      "County__c": "Clermont",
+      "State__c": "Ohio",
+      "Zip__c": 45150,
+      "Latitude__c": 39.173808,
+      "Longitude__c": -84.275529
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef369"
+      },
+      "Name": "Aurora Local Farmer's Market - Summer Market",
+      "FMID__c": 1000559,
+      "Street__c": "2031 S. Elliott Ave.",
+      "City__c": "Aurora",
+      "County__c": "Lawrence",
+      "State__c": "Missouri",
+      "Zip__c": 65605,
+      "Latitude__c": 36.948908,
+      "Longitude__c": -93.7201867
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef371"
+      },
+      "Name": "Chicago Heights Corner Market",
+      "FMID__c": 1000561,
+      "Street__c": "160 West Joe Orr Road",
+      "City__c": "Chicago Heights",
+      "County__c": "Cook",
+      "State__c": "Illinois",
+      "Zip__c": 60411,
+      "Latitude__c": 41.520174,
+      "Longitude__c": -87.646182,
+      "Website__c": "http://www.chcornermarket.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef373"
+      },
+      "Name": "Shelter Cove CFM",
+      "FMID__c": 1000564,
+      "Street__c": "Machi Road next to motel",
+      "City__c": "Shelter Cove",
+      "County__c": "Humboldt",
+      "State__c": "California",
+      "Latitude__c": 40.026,
+      "Longitude__c": -124.067
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef375"
+      },
+      "Name": "Old Palm Harbor Community Farmers Market",
+      "FMID__c": 1000569,
+      "Street__c": "1190 Georgia Avenue at 11th Street",
+      "City__c": "Palm Harbor",
+      "County__c": "Pinellas",
+      "State__c": "Florida",
+      "Zip__c": 34683,
+      "Latitude__c": 28.0772,
+      "Longitude__c": -82.766
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef377"
+      },
+      "Name": "The BLVD Market",
+      "FMID__c": 1000574,
+      "Street__c": "Lancaster Boulevard, between Fern Avenue and Ehrlich Avenue",
+      "City__c": "Lancaster",
+      "County__c": "Los Angeles",
+      "State__c": "California",
+      "Zip__c": 93534,
+      "Latitude__c": 34.697669,
+      "Longitude__c": -118.143269,
+      "Website__c": "http://www.cityoflancasterca.org/blvdmarket"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef379"
+      },
+      "Name": "Schoolcraft Farmers Market",
+      "FMID__c": 1000576,
+      "Street__c": "342 N. Grand",
+      "City__c": "Schoolcraft",
+      "County__c": "Kalamazoo",
+      "State__c": "Michigan",
+      "Zip__c": 49087,
+      "Latitude__c": 42.1167863,
+      "Longitude__c": -85.6371431,
+      "Website__c": "http://www.schoolcraftumc.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef381"
+      },
+      "Name": "Clarence Hollow Farmers' Market",
+      "FMID__c": 1000579,
+      "Street__c": "New Town lot, 10717 Main St. (route 5)",
+      "City__c": "Clarence",
+      "County__c": "Erie",
+      "State__c": "New York",
+      "Zip__c": 14031,
+      "Latitude__c": 42.98032,
+      "Longitude__c": -78.58945,
+      "Website__c": "http://www.clarencefarmersmarket.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef383"
+      },
+      "Name": "Mountain Fresh Oakland Farmers Market",
+      "FMID__c": 1000585,
+      "Street__c": "5 Town Park Lane",
+      "City__c": "Oakland",
+      "County__c": "Garrett",
+      "State__c": "Maryland",
+      "Zip__c": 21550,
+      "Latitude__c": 39.4082577,
+      "Longitude__c": -79.40964,
+      "Website__c": "http://www.MountainFresh.org"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef385"
+      },
+      "Name": "Windermere Farmer's Market",
+      "FMID__c": 1000590,
+      "Street__c": "520 Main Street",
+      "City__c": "Windermere",
+      "County__c": "Orange",
+      "State__c": "Florida",
+      "Zip__c": 34786,
+      "Latitude__c": 28.494836,
+      "Longitude__c": -81.535503
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef387"
+      },
+      "Name": "Sanger Farmers' Market & Street Faire",
+      "FMID__c": 1000593,
+      "Street__c": "7th and N Streets",
+      "City__c": "Sanger",
+      "County__c": "Fresno",
+      "State__c": "California",
+      "Zip__c": 93657,
+      "Latitude__c": 36.706334,
+      "Longitude__c": -119.557378
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef389"
+      },
+      "Name": "Raymond Farmers Market",
+      "FMID__c": 1000598,
+      "Street__c": "64 Freetown Rd",
+      "City__c": "Raymond",
+      "County__c": "Rockingham",
+      "State__c": "New Hampshire",
+      "Zip__c": 3077,
+      "Latitude__c": 43.020729,
+      "Longitude__c": -71.165904,
+      "Website__c": "http://www.raymondareanews.com/thingstodo/frmrsmkt.html"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef391"
+      },
+      "Name": "Geauga Family Farm Market",
+      "FMID__c": 1000601,
+      "Street__c": "4645 Mayfield Rd.",
+      "City__c": "South Euclid",
+      "County__c": "Cuyahoga",
+      "State__c": "Ohio",
+      "Latitude__c": 41.5198,
+      "Longitude__c": -81.5123
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef393"
+      },
+      "Name": "Whistle Stop Park Farmers Market",
+      "FMID__c": 1000608,
+      "Street__c": "103 4th St NE",
+      "City__c": "Dilworth",
+      "County__c": "Clay",
+      "State__c": "Minnesota",
+      "Zip__c": 56529,
+      "Latitude__c": 46.876886,
+      "Longitude__c": -96.697755
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef395"
+      },
+      "Name": "Monroe County Farmers Market",
+      "FMID__c": 1000610,
+      "Street__c": "Main street",
+      "City__c": "Stroudsburg",
+      "County__c": "Monroe",
+      "State__c": "Pennsylvania",
+      "Zip__c": 18360,
+      "Latitude__c": 40.9854,
+      "Longitude__c": -75.1941
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef397"
+      },
+      "Name": "Lyme Farmers Market",
+      "FMID__c": 1000612,
+      "Street__c": "78 Bill Hill Rd",
+      "City__c": "Lyme",
+      "County__c": "New London",
+      "State__c": "Connecticut",
+      "Zip__c": 6371,
+      "Latitude__c": 41.359722,
+      "Longitude__c": -72.335758,
+      "Website__c": "http://www.farmcoffee.com"
+    },
+    {
+      "attributes": {
+        "type": "Market__c",
+        "referenceId": "Market__cRef399"
+      },
+      "Name": "Logan County Farmers Market",
+      "FMID__c": 1000614,
+      "Street__c": "Corner of Chillicothe and Detroit Street",
+      "City__c": "Bellefontaine",
+      "County__c": "Logan",
+      "State__c": "Ohio",
+      "Zip__c": 43311,
+      "Latitude__c": 40.359847,
+      "Longitude__c": -83.7617721
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[
+    {
+        "sobject": "Market__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Market__cs0.json",
+            "Market__cs1.json",
+            "Market__cs2.json",
+            "Market__cs3.json"
+        ]
+    }
+]
