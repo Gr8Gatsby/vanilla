@@ -1,5 +1,6 @@
 <template>
     <span>
+      <slot></slot>
       <input class="value"
              readonly
              v-bind:label="label"
@@ -43,19 +44,19 @@ export default {
 
 <style>
 .value {
-    margin-left: 5px;
-    padding: 2px;
-    border: 1px solid gray;
-    flex: 5;
+  margin-left: 5px;
+  padding: 2px;
+  border:none;
+  flex: 5;
 }
 
 .edit {
-    margin-left: 5px;
-    padding: 2px;
-    border: none;
-    color: white;
-    border-bottom: 2px #FF3F91 solid;
-    flex: 5;
-    background-color: hotpink;
+  margin-left: 5px;
+  padding: 2px;
+  border: none;
+  color: white;
+  border-bottom: 2px #FF3F91 solid;
+  flex: 5;
+  background-color: hotpink;
 }
 </style>

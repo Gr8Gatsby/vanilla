@@ -17,6 +17,6 @@
         <div class="column" name="FMID__c" display-name="Market ID" data-editable="false"></div>
         <div class="column" name="Name" display-name="Market Name" data-editable="true"></div>
         <div class="column" name="City__c" display-name="City" data-editable="true"></div>
-        <!-- <div class="column" name="Twitter__c" display-name="Twitter" data-editable="true"></div> -->
+        <div class="column" name="Twitter__c" display-name="Twitter" data-editable="true"></div>
     </data-table>
 </apex:page>

@@ -1,5 +1,9 @@
 <template>
     <div>
+      <dataCell v-for="col in colData"
+        v-bind:key="col.name"
+        v-bind:val="col['display-name']"
+        v-bind:label="col"></dataCell>
       <slot></slot>
       <slot name="table">
         <div class="dataTable"></div>
@@ -8,8 +12,11 @@
 </template>
 
 <script>
+import dataCell from './dataCell'
+
 export default {
   name: 'DataTable',
+  components: { dataCell },
   props: ['page-size', 'object-name'],
   data: function () {
     return {
@@ -28,3 +35,11 @@ export default {
   }
 }
 </script>
+
+<style>
+  dataTable {
+    border: 1px solid red;
+    padding: 5px;
+    text-align: center;
+  }
+</style>
