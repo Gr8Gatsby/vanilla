@@ -1,0 +1,30 @@
+[
+    {
+        "sobject": "Market__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Market__cs0.json",
+            "Market__cs1.json",
+            "Market__cs2.json",
+            "Market__cs3.json",
+            "Market__cs4.json",
+            "Market__cs5.json",
+            "Market__cs6.json",
+            "Market__cs7.json",
+            "Market__cs8.json",
+            "Market__cs9.json",
+            "Market__cs10.json",
+            "Market__cs11.json",
+            "Market__cs12.json",
+            "Market__cs13.json",
+            "Market__cs14.json",
+            "Market__cs15.json",
+            "Market__cs16.json",
+            "Market__cs17.json",
+            "Market__cs18.json",
+            "Market__cs19.json",
+            "Market__cs20.json"
+        ]
+    }
+]
