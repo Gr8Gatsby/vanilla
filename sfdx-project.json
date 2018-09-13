@@ -6,7 +6,5 @@
     }
   ],
   "namespace": "",
-  "sfdcLoginUrl": "https://mobile1.t.salesforce.com/",
-  "signupTargetLoginUrl": "https://mobile1.t.salesforce.com",
   "sourceApiVersion": "44.0"
 }
