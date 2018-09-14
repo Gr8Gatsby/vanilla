@@ -68,11 +68,11 @@
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>Vanilla_Visualforce_React</apexPage>
+        <apexPage>React_Visualforce</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>Vanilla_Visualforce_Vue</apexPage>
+        <apexPage>Vue_Visualforce</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <tabVisibilities>

@@ -3,5 +3,5 @@
     <apiVersion>44.0</apiVersion>
     <availableInTouch>false</availableInTouch>
     <confirmationTokenRequired>false</confirmationTokenRequired>
-    <label>Vanilla Visualforce Vue</label>
+    <label>Vue Visualforce</label>
 </ApexPage>
