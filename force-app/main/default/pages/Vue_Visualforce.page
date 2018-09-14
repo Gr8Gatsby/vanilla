@@ -6,90 +6,12 @@
         <apex:remoteObjectModel name="Market__c" jsShorthand="Market" fields="FMID__c,Name,Twitter__c,City__c">
         </apex:remoteObjectModel>
     </apex:remoteObjects>
-    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-    <apex:includeScript value="{!$Resource.manifest}"/>
-    <!-- <apex:includeScript value="{!$Resource.vendor}"/> -->
-    <apex:includeScript value="{!$Resource.app}"/>
-
-    <!-- <style>
-        #app{font-family:Avenir,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-align:center;color:#2c3e50;margin-top:60px}.value{border:1px solid gray}.edit,.value{margin-left:5px;padding:2px;-ms-flex:5;flex:5}.edit{border:none;color:#fff;border-bottom:2px solid #ff3f91;background-color:hotpink}
-    </style>
-
-    <div id="app">
-        <dataTable></dataTable>
-    </div> -->
-
-    
-    
-    <apex:includeScript value="{!$Resource.vue}"/>
 
     <div id="app"></div>
 
-   <!-- <div id="app">
-       <hello-ping></hello-ping>
-        <data-table object-name="Market__c" page-size="20" v-for="r in recs" v-bind:row="r" v-bind:key="r.Id">
-            
-        </data-table>
-   </div>
-
-   <script>
-        Vue.component('data-row', {
-            props: ['recs'],
-            template: '<li>{{ row.Id }} {{ row.FMID__c }} {{ row.Name }} {{ row.City__c }} {{ row.Twitter__c }}</li>',
-            created: function() {
-                console.log('data-row created');
-            }
-        })
-
-        Vue.component('hello-ping', {
-            template: '<div>Hello from Vue!</div>'
-        })
-
-        Vue.component('data-table', {
-            props: ['object-name', 'page-size', 'recs'],
-            data: function() {
-                recs = [];
-                return {
-                    recs: [{Id:"123", FMID_c: 1, Name: "Name 1", City__c:"Seattle", Twitter__c:"@kevinjhill"}]
-                }
-            },
-            template: '<div><slot></slot></div>',
-            created: function(){
-                console.log('data-table created');
-                //recs: [{Id:"123", FMID_c: 1, Name: "Name 1", City__c:"Seattle", Twitter__c:"@kevinjhill"}];
-                //console.log(recs);
-            }
-        })
-
-       var app = new Vue({
-            el: '#app',
-            data: function() {
-                return {
-                    recs: []
-                }
-            }   
-        })
-
-
-        let so = new SObjectModel['Market__c'];
-
-        // Use the Remote Object to query for pageSize records
-        so.retrieve({
-            limit : 25
-        }, function(err, records){
-            if(err) throw new Error(err.message);
-            else {
-                let objArr = [];
-                records.forEach(element => {
-                    objArr.push(element._props);
-                });
-                let returnObj = {recs: objArr, message: "Data returned"}
-                Vue.nextTick(function(){
-                    app.recs = objArr;
-                })
-            }
-        })
-   </script> -->
+    <apex:includeScript value="{!URLFOR($Resource.vue, '/manifest.js')}"></apex:includeScript>
+    <apex:includeScript value="{!URLFOR($Resource.vue, '/vendor.js')}"></apex:includeScript>
+    <apex:includeScript value="{!URLFOR($Resource.vue, '/app.js')}"></apex:includeScript>
 
 </html>
 </apex:page>
