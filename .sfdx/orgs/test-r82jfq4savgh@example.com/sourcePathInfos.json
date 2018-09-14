@@ -1,0 +1,1013 @@
+[
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1533959920136,
+            "changeTime": 1533959920136,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1533959920136,
+            "changeTime": 1533959920136,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default",
+            "isDirectory": true,
+            "size": 384,
+            "modifiedTime": 1536936717344,
+            "changeTime": 1536936717344,
+            "contentHash": "8647bcf942546d387164de6c5c46602b86c0d6ec",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/applications",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/applications",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1533961300294,
+            "changeTime": 1533961300294,
+            "contentHash": "ff4e71cfa6fa788058d1ff27e83009dbd6e375b7",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/applications/Vanilla.app-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/applications/Vanilla.app-meta.xml",
+            "isDirectory": false,
+            "size": 831,
+            "modifiedTime": 1536810439614,
+            "changeTime": 1536810439614,
+            "contentHash": "0de648153eba6eb2343d8310b651d090d3dec9a8",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/aura",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/aura",
+            "isDirectory": true,
+            "size": 64,
+            "modifiedTime": 1533959920136,
+            "changeTime": 1533959920136,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/flexipages",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/flexipages",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1533961300289,
+            "changeTime": 1533961300289,
+            "contentHash": "23e7b89dd3c44c5de1c1d57c95dc132aca4500f5",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/flexipages/Vanilla_UtilityBar.flexipage-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/flexipages/Vanilla_UtilityBar.flexipage-meta.xml",
+            "isDirectory": false,
+            "size": 502,
+            "modifiedTime": 1533961300289,
+            "changeTime": 1533961300289,
+            "contentHash": "bab7ee93c3bba498aed93dadb4458d1d6b05d3af",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/layouts",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/layouts",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1536901128626,
+            "changeTime": 1536901128626,
+            "contentHash": "b5ff6707844300c9f16b17d389fc90243a4ca525",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/layouts/Market__c-Market Layout.layout-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/layouts/Market__c-Market Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 3588,
+            "modifiedTime": 1536901128626,
+            "changeTime": 1536901128626,
+            "contentHash": "6d3fa386ba8fe4c18dabcafaf7bf2ccd3b0b4819",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1536901128381,
+            "changeTime": 1536901128381,
+            "contentHash": "a686d99cf949ea811167626c74a7243306827052",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1533963274254,
+            "changeTime": 1533963274254,
+            "contentHash": "bce2f7d7beb8679d84d72559368546b2f3beba05",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/Market__c.object-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/Market__c.object-meta.xml",
+            "isDirectory": false,
+            "size": 2066,
+            "modifiedTime": 1533963274219,
+            "changeTime": 1533963274222,
+            "contentHash": "cd2ea4fd4e1412070f4c0e33c590c302154415fa",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields",
+            "isDirectory": true,
+            "size": 384,
+            "modifiedTime": 1536901128627,
+            "changeTime": 1536901128627,
+            "contentHash": "169e8a13ae9af9aa9fb2bdd3186bf2ca41259019",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields/City__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields/City__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 354,
+            "modifiedTime": 1533963274227,
+            "changeTime": 1533963274227,
+            "contentHash": "45c5d6574a9b2137e8bff644489b9c7e7ecd29a3",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields/County__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields/County__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 358,
+            "modifiedTime": 1533963274228,
+            "changeTime": 1533963274228,
+            "contentHash": "405ccc21ad2a7e240b56dae38fe465e5dee92a9f",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields/FMID__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields/FMID__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 445,
+            "modifiedTime": 1533963274241,
+            "changeTime": 1533963274241,
+            "contentHash": "65f09bc19807de41f69cf3cbc53eb879a86121b1",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields/Latitude__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields/Latitude__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 390,
+            "modifiedTime": 1536901128626,
+            "changeTime": 1536901128626,
+            "contentHash": "bb455b9ae7273455f2cc58a5c9b0c42e0de0b481",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields/Longitude__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields/Longitude__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 392,
+            "modifiedTime": 1536901128627,
+            "changeTime": 1536901128627,
+            "contentHash": "5a137458b52d78b0001779ba785d40165ffe5fd9",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields/State__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields/State__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 355,
+            "modifiedTime": 1533963274248,
+            "changeTime": 1533963274248,
+            "contentHash": "a09a8cba606814048893e3c4cc1e6fa2d163f43b",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields/Street__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields/Street__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 358,
+            "modifiedTime": 1533963274249,
+            "changeTime": 1533963274249,
+            "contentHash": "ffde0f4f84d96cd05594fde8fe259a0868c300bd",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields/Twitter__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields/Twitter__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 360,
+            "modifiedTime": 1533963274250,
+            "changeTime": 1533963274251,
+            "contentHash": "0d504f2c5fc5a4faec6abd22938df409e2fcea64",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields/Website__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields/Website__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 307,
+            "modifiedTime": 1533963274252,
+            "changeTime": 1533963274253,
+            "contentHash": "b7e3a57d54c05593c9dc5870f65242823dd904c5",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields/Zip__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/fields/Zip__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 379,
+            "modifiedTime": 1533963274254,
+            "changeTime": 1533963274254,
+            "contentHash": "2a605a5155959fcca7db1c0413eec1e608b61d37",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/listViews",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/listViews",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1533963274255,
+            "changeTime": 1533963274255,
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/listViews/All.listView-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/objects/Market__c/listViews/All.listView-meta.xml",
+            "isDirectory": false,
+            "size": 297,
+            "modifiedTime": 1534638553417,
+            "changeTime": 1534638553417,
+            "contentHash": "36829b70c1904d37f5dccfc39ddadb03ec16f269",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/pages",
+        {
+            "state": "u",
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/pages",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 256,
+            "modifiedTime": 1536937985046,
+            "changeTime": 1536937985046,
+            "isWorkspace": false,
+            "contentHash": "d6331735841f1dc716edcd0c7f2e6a6cdcdca804"
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/pages/React_Visualforce.page",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/pages/React_Visualforce.page",
+            "isDirectory": false,
+            "size": 1763,
+            "modifiedTime": 1536937014342,
+            "changeTime": 1536937014342,
+            "contentHash": "2a9cbc63805c2b7754b76928ed841c5d812ddab3",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/pages/Vanilla_Visualforce.page",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/pages/Vanilla_Visualforce.page",
+            "isDirectory": false,
+            "size": 1027,
+            "modifiedTime": 1536936992656,
+            "changeTime": 1536936992656,
+            "contentHash": "4ff501215ac5ac092c6c2141d04e03fc6da818a8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/pages/Vanilla_Visualforce.page-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/pages/Vanilla_Visualforce.page-meta.xml",
+            "isDirectory": false,
+            "size": 295,
+            "modifiedTime": 1536215571554,
+            "changeTime": 1536215571554,
+            "contentHash": "551ff1cb74552ac6893a6c1d01982853fb09d4b9",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/profiles",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/profiles",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1536901128627,
+            "changeTime": 1536901128627,
+            "contentHash": "dd4bc5d00d5b87ac9dcfa94ec543d354d095c25c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/profiles/Admin.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/profiles/Admin.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 20610,
+            "modifiedTime": 1536938047884,
+            "changeTime": 1536938047884,
+            "isWorkspace": false,
+            "contentHash": "cc5b02a238f8afe9dcc7c85a53d092c1ef2b5d77"
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources",
+            "isDirectory": true,
+            "size": 800,
+            "modifiedTime": 1536936836421,
+            "changeTime": 1536936836421,
+            "contentHash": "2c23f5b9845887246c9ed9dae817d1251553e2ac",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/app.css",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/app.css",
+            "isDirectory": false,
+            "size": 379,
+            "modifiedTime": 1536217486315,
+            "changeTime": 1536217486315,
+            "contentHash": "ad7583f66b248f9af805eba50633030fc0e1e180",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/app.js",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/app.js",
+            "isDirectory": false,
+            "size": 3541,
+            "modifiedTime": 1536891656219,
+            "changeTime": 1536891656219,
+            "contentHash": "ebc100e6c5920e78f1bfad4c210c17b83c8683b4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/app.resource-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/app.resource-meta.xml",
+            "isDirectory": false,
+            "size": 210,
+            "modifiedTime": 1536217449994,
+            "changeTime": 1536217449994,
+            "contentHash": "4486a1b0b1ebebd2232bda16dbb5cd729d92d089",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/data_cell.js",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/data_cell.js",
+            "isDirectory": false,
+            "size": 3382,
+            "modifiedTime": 1536103085114,
+            "changeTime": 1536103085114,
+            "contentHash": "85d25a3f4ea0b5f628b22c8bae0fc9f11b088dd8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/data_cell.resource-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/data_cell.resource-meta.xml",
+            "isDirectory": false,
+            "size": 210,
+            "modifiedTime": 1533961875563,
+            "changeTime": 1533961875570,
+            "contentHash": "4486a1b0b1ebebd2232bda16dbb5cd729d92d089",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/data_row.js",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/data_row.js",
+            "isDirectory": false,
+            "size": 2351,
+            "modifiedTime": 1534569422547,
+            "changeTime": 1534569422547,
+            "contentHash": "24ef3535a05088f89bec96eb726b0ae4998edef2",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/data_row.resource-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/data_row.resource-meta.xml",
+            "isDirectory": false,
+            "size": 210,
+            "modifiedTime": 1533961875563,
+            "changeTime": 1533961875569,
+            "contentHash": "4486a1b0b1ebebd2232bda16dbb5cd729d92d089",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/data_table.js",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/data_table.js",
+            "isDirectory": false,
+            "size": 3004,
+            "modifiedTime": 1536866703227,
+            "changeTime": 1536866703227,
+            "contentHash": "2411aad0b92015aef80b30fd96af407b093987c3",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/data_table.resource-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/data_table.resource-meta.xml",
+            "isDirectory": false,
+            "size": 210,
+            "modifiedTime": 1533961875563,
+            "changeTime": 1533961875570,
+            "contentHash": "4486a1b0b1ebebd2232bda16dbb5cd729d92d089",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/manifest.js",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/manifest.js",
+            "isDirectory": false,
+            "size": 837,
+            "modifiedTime": 1536891656221,
+            "changeTime": 1536891656221,
+            "contentHash": "651fa02c81d6c52efa2c03128810b88c2196357b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/manifest.resource-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/manifest.resource-meta.xml",
+            "isDirectory": false,
+            "size": 210,
+            "modifiedTime": 1536217470213,
+            "changeTime": 1536217470213,
+            "contentHash": "4486a1b0b1ebebd2232bda16dbb5cd729d92d089",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/react",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/react",
+            "isDirectory": true,
+            "size": 64,
+            "modifiedTime": 1536936781360,
+            "changeTime": 1536936781360,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/sample.js",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/sample.js",
+            "isDirectory": false,
+            "size": 26,
+            "modifiedTime": 1536876279998,
+            "changeTime": 1536876279998,
+            "contentHash": "529124d0deb2776cbfc452edad30690cf9fda960",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/sample.resource-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/sample.resource-meta.xml",
+            "isDirectory": false,
+            "size": 210,
+            "modifiedTime": 1534638553391,
+            "changeTime": 1534638553391,
+            "contentHash": "4486a1b0b1ebebd2232bda16dbb5cd729d92d089",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/testdata.js",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/testdata.js",
+            "isDirectory": false,
+            "size": 6110,
+            "modifiedTime": 1536866703228,
+            "changeTime": 1536866703228,
+            "contentHash": "ac90974cd9a369fcc3da29135f54a98ae21177b4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/testdata.resource-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/testdata.resource-meta.xml",
+            "isDirectory": false,
+            "size": 210,
+            "modifiedTime": 1536868269635,
+            "changeTime": 1536868269635,
+            "contentHash": "4486a1b0b1ebebd2232bda16dbb5cd729d92d089",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vanilla",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vanilla",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1536936813769,
+            "changeTime": 1536936813769,
+            "contentHash": "be494070e0869154ee18211df275f5a8965c0d93",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vanilla/data_cell.js",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vanilla/data_cell.js",
+            "isDirectory": false,
+            "size": 3382,
+            "modifiedTime": 1536936813770,
+            "changeTime": 1536936813771,
+            "contentHash": "85d25a3f4ea0b5f628b22c8bae0fc9f11b088dd8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vanilla/data_row.js",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vanilla/data_row.js",
+            "isDirectory": false,
+            "size": 2351,
+            "modifiedTime": 1536936813769,
+            "changeTime": 1536936813771,
+            "contentHash": "24ef3535a05088f89bec96eb726b0ae4998edef2",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vanilla/data_table.js",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vanilla/data_table.js",
+            "isDirectory": false,
+            "size": 3004,
+            "modifiedTime": 1536936813770,
+            "changeTime": 1536936813771,
+            "contentHash": "2411aad0b92015aef80b30fd96af407b093987c3",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vanilla.resource-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vanilla.resource-meta.xml",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1536936902081,
+            "changeTime": 1536936902081,
+            "contentHash": "16e77b68817148ad155b77bdb57d90e359280585",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vendor.js",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vendor.js",
+            "isDirectory": false,
+            "size": 112087,
+            "modifiedTime": 1536891656224,
+            "changeTime": 1536891656224,
+            "contentHash": "ad245757d0b9494c387a2f0bf7a4f1b1c0947a79",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vendor.resource-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vendor.resource-meta.xml",
+            "isDirectory": false,
+            "size": 210,
+            "modifiedTime": 1536217433206,
+            "changeTime": 1536217433206,
+            "contentHash": "4486a1b0b1ebebd2232bda16dbb5cd729d92d089",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vue",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vue",
+            "isDirectory": true,
+            "size": 64,
+            "modifiedTime": 1536936785191,
+            "changeTime": 1536936785191,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vue.js",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vue.js",
+            "isDirectory": false,
+            "size": 289303,
+            "modifiedTime": 1535220247762,
+            "changeTime": 1535220247770,
+            "contentHash": "0fd2d52751ec770bcf0bcdedc4da9160e352cd92",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vue.resource-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/staticresources/vue.resource-meta.xml",
+            "isDirectory": false,
+            "size": 210,
+            "modifiedTime": 1535220552687,
+            "changeTime": 1535220552688,
+            "contentHash": "4486a1b0b1ebebd2232bda16dbb5cd729d92d089",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/tabs",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/tabs",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1535221022843,
+            "changeTime": 1535221022843,
+            "contentHash": "bd6306ee28f75f0b4e943cc31012b9743d3ad3ab",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/tabs/Market__c.tab-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/tabs/Market__c.tab-meta.xml",
+            "isDirectory": false,
+            "size": 220,
+            "modifiedTime": 1534638553420,
+            "changeTime": 1534638553420,
+            "contentHash": "ceb248a73fb162f1dcf8d2d3ef566b30b1095fb1",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/tabs/Visualforce_React.tab-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/tabs/Visualforce_React.tab-meta.xml",
+            "isDirectory": false,
+            "size": 255,
+            "modifiedTime": 1536937045456,
+            "changeTime": 1536937045456,
+            "contentHash": "accbaa2ac865a0cb1a74bbc79b4cb9e1fbfafa0f",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/tabs/Visualforce_Vanilla.tab-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/tabs/Visualforce_Vanilla.tab-meta.xml",
+            "isDirectory": false,
+            "size": 259,
+            "modifiedTime": 1535221022774,
+            "changeTime": 1535221022774,
+            "contentHash": "509825f8058075f63a3b2f74ce0d4765b2f9f8b6",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/tabs/Visualforce_Vue.tab-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/tabs/Visualforce_Vue.tab-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 251,
+            "modifiedTime": 1536938056966,
+            "changeTime": 1536938056966,
+            "isWorkspace": false,
+            "contentHash": "631f64d0d4a631d99a001db27fd4f2e28bc99333"
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla",
+            "isDirectory": true,
+            "size": 608,
+            "modifiedTime": 1536930745822,
+            "changeTime": 1536930745822,
+            "contentHash": "5f66f6355884193f291af19f5efeb24061046700",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/pages/React_Visualforce.page-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/pages/React_Visualforce.page-meta.xml",
+            "isDirectory": false,
+            "size": 301,
+            "modifiedTime": 1536937445131,
+            "changeTime": 1536937445131,
+            "contentHash": "4fa0a133d1e8168ae03a94372d9aaac07ef22690",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/pages/Vue_Visualforce.page",
+        {
+            "state": "u",
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/pages/Vue_Visualforce.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3335,
+            "modifiedTime": 1536937969497,
+            "changeTime": 1536937969497,
+            "contentHash": "66de14117532c6ea9cf431ae0ccf6fa1e66925f7"
+        }
+    ],
+    [
+        "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/pages/Vue_Visualforce.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/kevin.hill/code/vanilla/vanilla/force-app/main/default/pages/Vue_Visualforce.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 291,
+            "modifiedTime": 1536938017404,
+            "changeTime": 1536938017404,
+            "contentHash": "31ae0a3ba4d28d7ab95b49b3cadec4f745773b57"
+        }
+    ]
+]
