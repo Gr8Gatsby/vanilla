@@ -67,7 +67,7 @@ class DataTable extends HTMLElement {
         let so = undefined;
         try{
             so = new SObjectModel[objectName];
-        } catch {
+        } catch (e) {
             
         }
         // Use the Remote Object to query for pageSize records
