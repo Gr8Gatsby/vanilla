@@ -1,17 +1,21 @@
 <apex:page >
 <!-- Hack for Vue to work in Visualforce add fake namespaces for "v-" -->
 <html xmlns:v-on="http://fake.org/fake" xmlns:v-for="http://fake.org/fake" xmlns:v-bind="http://fake.org/fake">
+   
+    <div id="app"></div>
+    <style>
+    #app{font-family:Avenir,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:#2c3e50;margin-top:60px}#app,dataTable{text-align:center}dataTable{border:1px solid red;padding:5px}.edit,.value{margin-left:5px;padding:2px;border:none;-ms-flex:5;flex:5}.edit{color:#fff;border-bottom:2px solid #ff3f91;background-color:hotpink}
+    </style>
+    
     <!-- Remote Objects definition to set accessible sObjects and fields -->
     <apex:remoteObjects >
         <apex:remoteObjectModel name="Market__c" jsShorthand="Market" fields="FMID__c,Name,Twitter__c,City__c">
         </apex:remoteObjectModel>
     </apex:remoteObjects>
 
-    <div id="app"></div>
-
-    <apex:includeScript value="{!URLFOR($Resource.vue, '/manifest.js')}"></apex:includeScript>
-    <apex:includeScript value="{!URLFOR($Resource.vue, '/vendor.js')}"></apex:includeScript>
-    <apex:includeScript value="{!URLFOR($Resource.vue, '/app.js')}"></apex:includeScript>
-
+    <apex:includeScript loadOnReady="true" value="{!URLFOR($Resource.vue, '/manifest.js')}"></apex:includeScript>
+    <apex:includeScript loadOnReady="true" value="{!URLFOR($Resource.vue, '/vendor.js')}"></apex:includeScript>
+    <apex:includeScript loadOnReady="true" value="{!URLFOR($Resource.vue, '/app.js')}"></apex:includeScript>
+    
 </html>
 </apex:page>
