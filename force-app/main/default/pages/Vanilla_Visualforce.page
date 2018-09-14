@@ -7,9 +7,9 @@
     </apex:remoteObjects>
 
     <!-- Load scripts -->
-    <apex:includeScript value="{!$Resource.data_cell}"/>
-    <apex:includeScript value="{!$Resource.data_table}"/>
-    <apex:includeScript value="{!$Resource.data_row}"/>
+    <apex:includeScript value="{!URLFOR($Resource.vanilla, '/data_cell.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.vanilla, '/data_row.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.vanilla, '/data_table.js')}"/>
 
     <!-- Page layout -->
     <data-table page-size="20" object-name="Market">
