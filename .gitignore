@@ -10,3 +10,4 @@
 !.vscode/extensions.json
 !.vscode/settings.json
 node_modules/
+*.log
