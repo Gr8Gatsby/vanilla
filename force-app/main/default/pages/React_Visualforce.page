@@ -1,13 +1,17 @@
-<apex:page docType="html-5.0" >
-
-    <!-- Remote Objects definition to set accessible sObjects and fields -->
-    <apex:remoteObjects >
+<apex:page docType="html-5.0">
+    <!-- Use Remote Objects to load data -->
+    <apex:remoteObjects>
         <apex:remoteObjectModel name="Market__c" jsShorthand="Market" fields="FMID__c,Name,Twitter__c,City__c">
         </apex:remoteObjectModel>
     </apex:remoteObjects>
 
+    <!-- root of React tree -->
     <div id="root"></div>
 
-    <apex:includeScript loadOnReady="true" value="{!URLFOR($Resource.react, '/main.js')}"></apex:includeScript>
+    <!--
+        Load react components
+        Included in this is the definition of the table and loading data using VF Remote Objects
+    -->
+    <apex:includeScript value="{!URLFOR($Resource.react, '/main.js')}" loadOnReady="true" />
     <apex:stylesheet value="{!URLFOR($Resource.react, 'main.css')}"/>
 </apex:page>
