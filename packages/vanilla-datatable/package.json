@@ -1,6 +1,6 @@
 {
   "name": "vanilla-datatable",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A datatable web component in Vanilla JS",
   "license": "MIT",
   "scripts": {
