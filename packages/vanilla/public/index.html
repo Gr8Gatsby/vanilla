@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <div id="main"></div>
+    <!-- web component definition/registration -->
+    <script src="/js/main.js"></script>
+
+    <!-- define the web component-powered table's shape -->
+    <!--
+    <data-table page-size="20" object-name="Market">
+      <div class="column" field="FMID__c" display-name="Market ID" editable="false"></div>
+      <div class="column" field="Name" display-name="Market Name" editable="true"></div>
+      <div class="column" field="Id" display-name="Saleforce Id" editable="false"></div>
+    </data-table>
+  -->
+
+  <data-cell field="fieldApiName" value="this is the value" editable="true"></data-cell>
+
+    <!-- load sample data -->
+    <script src="/js/data.js"></script>
+    <script>
+      // set the sample data
+      // document.querySelector('data-table').data = ROWS;
+    </script>
+</body>
+</html>
