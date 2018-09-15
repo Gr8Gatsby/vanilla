@@ -7,7 +7,9 @@
     "lint": "eslint src/",
     "build": "cross-env rollup -c ./scripts/rollup.config.js",
     "serve": "node server.js",
-    "start": "concurrently \"yarn build --watch\" \"yarn serve\""
+    "start": "concurrently \"yarn build --watch\" \"yarn serve\"",
+    "deploy": "yarn build && cp public/js/main.js ../../force-app/main/default/staticresources/vanilla/",
+    "prettier": "prettier --write 'src/**/*.js' 'public/**/*.js'"
   },
  "devDependencies": {
     "babel-eslint": "^8.2.1",
@@ -15,6 +17,7 @@
     "cross-env": "^5.1.1",
     "eslint": "^4.17.0",
     "eslint-plugin-import": "^2.8.0",
+    "prettier": "1.10.2",
     "rimraf": "^2.6.2",
     "rollup": "^0.53.3",
     "rollup-plugin-strip": "^1.1.1",

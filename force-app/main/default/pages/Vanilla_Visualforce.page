@@ -1,22 +1,43 @@
-<apex:page >
-    <!-- Remote Objects definition to \]
-        set accessible sObjects and fields -->
-    <apex:remoteObjects >
+<apex:page>
+    <!-- Use Remote Objects to load data -->
+    <apex:remoteObjects>
         <apex:remoteObjectModel name="Market__c" jsShorthand="Market" fields="FMID__c,Name,Twitter__c,City__c">
         </apex:remoteObjectModel>
     </apex:remoteObjects>
 
-    <!-- Load scripts -->
-    <apex:includeScript value="{!URLFOR($Resource.vanilla, '/data_cell.js')}"/>
-    <apex:includeScript value="{!URLFOR($Resource.vanilla, '/data_row.js')}"/>
-    <apex:includeScript value="{!URLFOR($Resource.vanilla, '/data_table.js')}"/>
+    <!-- Load web components -->
+    <apex:includeScript value="{!URLFOR($Resource.vanilla, '/main.js')}" />
 
-    <!-- Page layout -->
-    <data-table page-size="20" object-name="Market">
-        <!-- Should add column width -->
-        <div class="column" name="FMID__c" display-name="Market ID" data-editable="false"></div>
-        <div class="column" name="Name" display-name="Market Name" data-editable="true"></div>
-        <div class="column" name="City__c" display-name="City" data-editable="true"></div>
-        <div class="column" name="Twitter__c" display-name="Twitter" data-editable="true"></div>
+    <!-- Define the table to display -->
+    <data-table>
+        <data-column field='FMID__c' label='Market Id' editable='false'></data-column>
+        <data-column field='Name' label='Name' editable='true'></data-column>
+        <data-column field='City__c' label='City' editable='true'></data-column>
+        <data-column field='Twitter__c' label='Twitter' editable='true'></data-column>
     </data-table>
+
+    <!-- Load the data -->
+    <script>
+        const market = new SObjectModel.Market();
+        market.retrieve({ limit: 50 }, (err, records) => {
+            if (err) {
+                alert(err.message);
+            } else {
+                // get the field names from the <data-column>
+                const fields = Array.prototype.slice.call(document.querySelectorAll('data-column')).map(column => column.field);
+
+                // convert from Remote Objects to JS objects
+                const rows = records.map(record => {
+                    const row = fields.reduce((row, field) => {
+                        row[field] = record.get(field);
+                        return row;
+                    }, {});
+                    return row;
+                });
+
+                // set the data on the table
+                document.querySelector('data-table').data = rows;
+            }
+        });
+    </script>
 </apex:page>

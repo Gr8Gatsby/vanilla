@@ -49,6 +49,9 @@ export default class DataCell extends HTMLElement {
         return this.getAttribute('value');
     }
     set value(value) {
+        if (value == null) {
+            value = '';
+        }
         this.setAttribute('value', value);
     }
 

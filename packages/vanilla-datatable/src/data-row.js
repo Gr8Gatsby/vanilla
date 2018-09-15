@@ -8,7 +8,7 @@ export default class DataRow extends HTMLElement {
         super();
 
         // create and populate the shadow dom
-        const shadow = this.attachShadow({ mode: "open" });
+        const shadow = this.attachShadow({ mode: 'open' });
         shadow.innerHTML = `
             <style>
                 slot { display: block; }

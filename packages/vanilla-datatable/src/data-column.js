@@ -10,7 +10,7 @@ export default class DataColumn extends HTMLElement {
         // create and populate the shadow dom
         var shadow = this.attachShadow({ mode: 'open' });
         shadow.innerHTML = `
-            <data-cell field="" value="" editable="false"></data-cell>
+            <data-cell field='' value='' editable='false'></data-cell>
         `;
     }
 
