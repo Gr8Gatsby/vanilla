@@ -15,14 +15,14 @@
     </data-table>
 
     <!-- load sample data -->
-    <script src="/js/data.js"></script>
     <script>
       // load sample data
       fetch('/js/Market__cs0.json')
         .then(response => response.json())
         .then(
             (json) => {
-                document.querySelector('data-table').data = json.records;
+                const data = json.records.map(record => Object.assign(record, { id: record.FMID__c }));
+                document.querySelector('data-table').data = data;
             },
             (error) => {
                 alert('Error loading sample data: ' + JSON.stringify(error));

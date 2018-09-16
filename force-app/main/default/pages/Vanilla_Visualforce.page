@@ -32,6 +32,7 @@
                         row[field] = record.get(field);
                         return row;
                     }, {});
+                    row.id = record.get('FMID__c');
                     return row;
                 });
 

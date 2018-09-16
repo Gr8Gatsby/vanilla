@@ -16,7 +16,7 @@ export default class DataCell extends HTMLElement {
         var shadow = this.attachShadow({ mode: 'open' });
         shadow.innerHTML = `
             <style>
-                .value {
+                .view {
                     margin-left: 5px;
                     padding: 2px;
                     border:none;
@@ -32,12 +32,19 @@ export default class DataCell extends HTMLElement {
                     background-color: hotpink;
                 }
             </style>
-            <input class='value' readonly/>
+            <input class='view' readonly/>
         `;
     }
 
     // properties are reflected as attributes. attribute values are
     // the source of truth.
+    get id() {
+        return Number(this.getAttribute('id'));
+    }
+    set id(value) {
+        this.setAttribute('id', value);
+    }
+
     get field() {
         return this.getAttribute('field');
     }
@@ -86,7 +93,7 @@ export default class DataCell extends HTMLElement {
     setEditMode(enabled) {
         const input = this._inputElement;
         input.readOnly = !enabled;
-        input.setAttribute('class', enabled ? 'edit' : '');
+        input.setAttribute('class', enabled ? 'edit' : 'view');
     }
 
     // double click enters edit mode
@@ -116,7 +123,7 @@ export default class DataCell extends HTMLElement {
         const newValue = this._inputElement.value.trim();
         if (newValue !== this.value) {
             // prepare event
-            const detail = { field: this.field, value: newValue };
+            const detail = { id: this.id, field: this.field, value: newValue };
             const event = new CustomEvent('save', { bubbles: true, detail });
             this.dispatchEvent(event);
         }
