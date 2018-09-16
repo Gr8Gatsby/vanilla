@@ -1,0 +1,20 @@
+{
+  "name": "react-datatable",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A datatable component in React",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "yarn build",
+    "deploy": "yarn build && cp build/static/js/main*.js ../../force-app/main/default/staticresources/react/main.js && cp build/static/css/main*.css ../../force-app/main/default/staticresources/react/main.css"
+  }
+}
