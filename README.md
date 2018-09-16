@@ -36,38 +36,38 @@ Lorem ipsum
 
 ## Installation Instructions
 
-1. Authenticate with your hub org (if not already done):
+1. Authenticate with your hub org (if not already done)
     ```
     sfdx force:auth:web:login -d -a myhuborg
     ```
 
-1. Clone the repository:
+1. Clone the repository
     ```
     git clone  git@github.com:Gr8Gatsby/vanilla.git
     cd vanilla
     ```
 
-1. Install dependencies:
+1. Install dependencies, build and copy artifacts to sfdx locations
     ```
     yarn
     ```
 
-1. Create a scratch org and provide it with an alias (nto):
+1. Create a scratch org and provide it with an alias
     ```
     sfdx force:org:create -s -f config/project-scratch-def.json -a vanilla
     ```
 
-1. Push the app to your scratch org:
+1. Push the app to your scratch org
     ```
     sfdx force:source:push
     ```
 
-1. Load sample data:
+1. Load sample data
     ```
     sfdx force:data:tree:import --plan ./data/Market__c-plan.json
     ```
 
-1. Open the scratch org:
+1. Open the scratch org
     ```
     sfdx force:org:open
     ```
@@ -78,3 +78,17 @@ Lorem ipsum
 ## Application Walkthrough
 
 Lorem ipsum
+
+
+## Making Changes
+
+1. After making changes to a sub-project you must build the projects and copy updated artifacts into the sfdx project.
+    ```
+    yarn build
+    ```
+
+1. Then push the app to your scratch org.
+    ```
+    sfdx force:source:push
+    ```
+

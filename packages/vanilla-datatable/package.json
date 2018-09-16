@@ -5,11 +5,13 @@
   "description": "A datatable web component in Vanilla JS",
   "license": "MIT",
   "scripts": {
+    "build": "cross-env rollup -c ./scripts/rollup.config.js && yarn build:sfdx",
+    "build:sfdx": "cp public/js/main.js ../../force-app/main/default/staticresources/vanilla/",
+    "clean": "rm -rf publicjs/main.js",
     "lint": "eslint src/",
-    "build": "cross-env rollup -c ./scripts/rollup.config.js",
+    "test": "",
     "serve": "node server.js",
     "start": "concurrently \"yarn build --watch\" \"yarn serve\"",
-    "deploy": "yarn build && cp public/js/main.js ../../force-app/main/default/staticresources/vanilla/",
     "prettier": "prettier --write 'src/**/*.js' 'public/**/*.js'"
   },
  "devDependencies": {
@@ -19,7 +21,6 @@
     "eslint": "^4.17.0",
     "eslint-plugin-import": "^2.8.0",
     "prettier": "1.10.2",
-    "rimraf": "^2.6.2",
     "rollup": "^0.53.3",
     "rollup-plugin-strip": "^1.1.1",
     "rollup-plugin-uglify": "^3.0.0",
