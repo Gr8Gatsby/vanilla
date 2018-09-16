@@ -5,30 +5,30 @@
   "description": "A datatable web component in Vanilla JS",
   "license": "MIT",
   "scripts": {
-    "build": "cross-env rollup -c ./scripts/rollup.config.js && yarn build:sfdx",
-    "build:sfdx": "cp public/js/main.js ../../force-app/main/default/staticresources/vanilla/",
-    "clean": "rm -rf publicjs/main.js",
+    "build": "NODE_ENV=production cross-env rollup -c ./scripts/rollup.config.js && yarn build:sfdx",
+    "build:dev": "cross-env rollup -c ./scripts/rollup.config.js && yarn build:sfdx",
+    "build:dev:watch": "cross-env rollup -c ./scripts/rollup.config.js --watch",
+    "build:sfdx": "cp public/js/main*.js ../../force-app/main/default/staticresources/vanilla/main.js",
+    "clean": "rm -rf publicjs/main*",
     "lint": "eslint src/",
     "test": "",
     "serve": "node server.js",
-    "start": "concurrently \"yarn build --watch\" \"yarn serve\"",
+    "start": "concurrently \"yarn build:dev:watch\" \"yarn serve\"",
     "prettier": "prettier --write 'src/**/*.js' 'public/**/*.js'"
   },
- "devDependencies": {
+  "devDependencies": {
     "babel-eslint": "^8.2.1",
     "concurrently": "^3.5.0",
     "cross-env": "^5.1.1",
     "eslint": "^4.17.0",
     "eslint-plugin-import": "^2.8.0",
     "prettier": "1.10.2",
-    "rollup": "^0.53.3",
-    "rollup-plugin-strip": "^1.1.1",
+    "rollup": "^0.66.0",
+    "rollup-plugin-replace": "^2.0.0",
     "rollup-plugin-uglify": "^3.0.0",
-    "rollup-watch": "^4.3.1",
-    "uglify-js-harmony": "^2.7.7"
+    "rollup-watch": "^4.3.1"
   },
   "dependencies": {
-    "express": "^4.15.2",
-    "rollup-plugin-replace": "^2.0.0"
+    "express": "^4.15.2"
   }
 }
