@@ -4,15 +4,15 @@
   "version": "0.0.1-beta",
   "description": "Web Components on force.com",
   "scripts": {
-    "lint": "npm run lint:aura",
+    "prepare": "yarn build",
+    "postinstall": "node bin/check-version.js",
+    "build": "lerna run build",
+    "clean": "lerna run clean && lerna clean --yes && rm -rf node_modules",
+    "lint": "lerna run lint && npm run lint:aura",
     "lint:aura": "sfdx force:lightning:lint force-app --exit",
-    "test": "npm run lint && npm run test:unit",
-    "test:unit": "lts-jest test",
-    "test:unit:watch": "lts-jest test --watch",
-    "test:unit:debug": "node --inspect-brk ./node_modules/.bin/lts-jest test -a --runInBand",
+    "test": "lerna run test",
     "prettier": "prettier --write '**/*.js'",
-    "prettier:staged": "./bin/prettier-staged.js",
-    "postinstall": "node bin/check-version.js"
+    "prettier:staged": "./bin/prettier-staged.js"
   },
   "author": "Kevin Hill, Kevin Venkiteswaran",
   "license": "Apache-2.0",
@@ -22,18 +22,22 @@
   },
   "engines": {
     "node": ">= 8.9.4",
-    "npm": ">= 5.7.1"
+    "npm": ">= 6.0.0"
   },
   "devDependencies": {
     "eslint": "4.16.0",
     "husky": "^0.15.0-rc.8",
+    "lerna": "2.9.0",
     "prettier": "1.10.2",
     "semver": "^5.5.0",
     "shelljs": "^0.8.1"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run prettier:staged && npm run lint"
+      "pre-commit": "yarn prettier:staged"
     }
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
