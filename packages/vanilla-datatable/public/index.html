@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <div id="main"></div>
+    <!-- web component definition/registration -->
+    <script src="/js/main.js"></script>
+
+    <!-- define the table's shape -->
+    <data-table page-size='20'>
+        <data-column field='FMID__c' label='Market Id' editable='false'></data-column>
+        <data-column field='Name' label='Name' editable='true'></data-column>
+        <data-column field='City__c' label='City' editable='true'></data-column>
+        <data-column field='Twitter__c' label='Twitter' editable='true'></data-column>
+    </data-table>
+
+    <!-- load sample data -->
+    <script src="/js/data.js"></script>
+    <script>
+      // load sample data
+      fetch('/js/Market__cs0.json')
+        .then(response => response.json())
+        .then(
+            (json) => {
+                document.querySelector('data-table').data = json.records;
+            },
+            (error) => {
+                alert('Error loading sample data: ' + JSON.stringify(error));
+            });
+    </script>
+</body>
+
+</html>
