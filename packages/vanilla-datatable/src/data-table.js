@@ -72,6 +72,7 @@ export default class DataTable extends HTMLElement {
             const rowElement = document.createElement('data-row');
             const cellElements = this.columns.map(column => {
                 const cellElement = document.createElement('data-cell');
+                cellElement.id = row.id;
                 cellElement.field = column.field;
                 cellElement.value = row[column.field];
                 cellElement.editable = column.editable;
