@@ -11,6 +11,6 @@
 !.vscode/settings.json
 node_modules/
 *.log
-force-app/main/default/staticresources/vanilla/main.js
+force-app/main/default/staticresources/vanilla/main*.js
 force-app/main/default/staticresources/react/main.css
 force-app/main/default/staticresources/react/main.js
