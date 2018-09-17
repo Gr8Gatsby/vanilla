@@ -1,16 +1,18 @@
 <apex:page >
 <!-- Hack for Vue to work in Visualforce add fake namespaces for "v-" -->
 <html xmlns:v-on="http://fake.org/fake" xmlns:v-for="http://fake.org/fake" xmlns:v-bind="http://fake.org/fake">
-   
-    <div id="app"></div>
-    
-    <!-- Remote Objects definition to set accessible sObjects and fields -->
-    <apex:remoteObjects >
+    <!-- Use Remote Objects to load data -->
+    <apex:remoteObjects>
         <apex:remoteObjectModel name="Market__c" jsShorthand="Market" fields="FMID__c,Name,Twitter__c,City__c">
         </apex:remoteObjectModel>
     </apex:remoteObjects>
 
-    <apex:includeScript loadOnReady="true" value="{!URLFOR($Resource.vue, '/manifest.js')}"></apex:includeScript>
+    <!-- target for Vue components -->
+    <div id="app"></div>
+
+    <!--
+        Load Vue and components
+    -->
     <apex:includeScript loadOnReady="true" value="{!URLFOR($Resource.vue, '/vendor.js')}"></apex:includeScript>
     <apex:includeScript loadOnReady="true" value="{!URLFOR($Resource.vue, '/app.js')}"></apex:includeScript>
     <apex:stylesheet value="{!URLFOR($Resource.vue, 'app.css')}"/>
