@@ -1,4 +1,4 @@
 node_modules
 *.log
-public/js/main.js
+public/js/main*.js
 .vscode
