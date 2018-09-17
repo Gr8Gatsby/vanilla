@@ -39,20 +39,21 @@ class DataCell extends React.Component {
         // initial component state
         this.state = { value: this.props.value || '', className: 'view', readOnly: true }
         // create bound functions for event handlers
+        this.handleDoubleClick = this.handleDoubleClick.bind(this)
         this.handleBlur = this.handleBlur.bind(this)
         this.handleChange = this.handleChange.bind(this)
-        this.handleDoubleClick = this.handleDoubleClick.bind(this)
+        this.handleKeyDown = this.handleKeyDown.bind(this)
     }
 
     render() {
         return (
             <input className={this.state.className}
                 value={this.state.value}
-                editable={this.props.editable}
+                readOnly={this.state.readOnly}
                 onDoubleClick={this.handleDoubleClick}
                 onBlur={this.handleBlur}
-                readOnly={this.state.readOnly}
                 onChange={this.handleChange}
+                onKeyDown={this.handleKeyDown}
             >
             </input>
         )
@@ -69,8 +70,13 @@ class DataCell extends React.Component {
     }
 
     handleChange(evt) {
-        if (!this.state.readOnly) {
-            this.setState({ value: evt.target.value.trim() });
+        this.setState({ value: evt.target.value.trim() });
+    }
+
+    handleKeyDown(evt) {
+        if (evt.key === 'Enter' && !this.state.readOnly) {
+            this.setEditMode(false);
+            this.dispatchSave(this.state.value);
         }
     }
 
