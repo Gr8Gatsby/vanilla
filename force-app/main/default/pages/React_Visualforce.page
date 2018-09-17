@@ -5,7 +5,7 @@
         </apex:remoteObjectModel>
     </apex:remoteObjects>
 
-    <!-- root of React tree -->
+    <!-- target for React components -->
     <div id="root"></div>
 
     <!--
