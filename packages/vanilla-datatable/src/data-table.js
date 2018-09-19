@@ -69,7 +69,7 @@ export default class DataTable extends HTMLElement {
         }
         // append new children
         this.data.forEach(row => {
-            const rowElement = document.createElement('data-row');
+            const rowElement = document.createElement('div');
             const cellElements = this.columns.map(column => {
                 const cellElement = document.createElement('data-cell');
                 cellElement.id = row.id;
