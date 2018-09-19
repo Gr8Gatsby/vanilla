@@ -14,18 +14,9 @@ const COLUMNS = [
 
 // root of the react app
 class App extends React.Component {
-    constructor(props, context) {
-        super(props, context);
-        this.onChange = this.onChange.bind(this);
-    }
-
-    onChange(id, field, value) {
-        console.log(`onChange(${id}, ${field}, ${value})`);
-    }
-
     render() {
         return (
-            <DataTable data={this.props.data} onChange={this.onChange}>
+            <DataTable data={this.props.data} onChange={this.props.onChange}>
             {COLUMNS.map(column => {
                 return <DataColumn field={column.field} label={column.label} editable={column.editable}/>
             })}
@@ -34,9 +25,15 @@ class App extends React.Component {
     }
 }
 
+// listener for change event
+function handleChange(id, field, value) {
+    console.info('Received change event', {id, field, value});
+    // NOTE - here we'd use Remote Objects to perform the save
+}
+
 // global function to render the react app
 function render(data) {
-    ReactDOM.render(<App data={data} />, document.getElementById('root'));
+    ReactDOM.render(<App data={data} onChange={handleChange} />, document.getElementById('root'));
 }
 
 // initial render (without data)
@@ -55,6 +52,7 @@ if (typeof SObjectModel !== 'undefined') { // eslint-disable-line no-undef
                         row[column.field] = record.get(column.field);
                         return row;
                     }, {});
+                    row.id = record.get('FMID__c');
                     return row;
                 });
 

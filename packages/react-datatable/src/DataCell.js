@@ -38,7 +38,10 @@ export class DataCell extends React.Component {
     }
 
     handleChange(evt) {
-        this.setState({ value: evt.target.value.trim() });
+        if (!this.state.readOnly) {
+            const value = evt.target.value.trim();
+            this.setState({ value });
+        }
     }
 
     handleKeyDown(evt) {
@@ -55,7 +58,7 @@ export class DataCell extends React.Component {
         }
     }
     dispatchSave(value) {
-        if (this.props.onChange) {
+        if (this.props.onChange && this.props.value !== this.state.value) {
             this.props.onChange(this.props.id, this.props.field, value);
         }
     }
