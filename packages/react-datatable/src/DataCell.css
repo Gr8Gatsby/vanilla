@@ -1,0 +1,16 @@
+.view {
+    margin-left: 5px;
+    padding: 2px;
+    border:none;
+    flex: 5;
+}
+
+.edit {
+    margin-left: 5px;
+    padding: 2px;
+    border: none;
+    color: white;
+    border-bottom: 2px #FF3F91 solid;
+    flex: 5;
+    background-color: hotpink;
+}

@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { DataTable, DataColumn } from './App';
+import { DataTable }  from './DataTable';
+import { DataColumn } from './DataColumn';
 
 // define the columns of the table
 const COLUMNS = [
