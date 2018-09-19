@@ -9,7 +9,7 @@
     <apex:includeScript value="{!URLFOR($Resource.vanilla, '/main.js')}" />
 
     <!-- Define the table to display -->
-    <data-table>
+    <data-table id='app'>
         <data-column field='FMID__c' label='Market Id' editable='false'></data-column>
         <data-column field='Name' label='Name' editable='true'></data-column>
         <data-column field='City__c' label='City' editable='true'></data-column>
@@ -18,6 +18,14 @@
 
     <!-- Load the data -->
     <script>
+        const target = document.getElementById('app');
+
+        // listener for change event
+        target.addEventListener('change', (event) => {
+            console.info('Visualforce received change event', event.detail);
+            // NOTE - here we'd use Remote Objects to perform the save
+        });
+
         const market = new SObjectModel.Market();
         market.retrieve({ limit: 50 }, (err, records) => {
             if (err) {
@@ -37,7 +45,7 @@
                 });
 
                 // set the data on the table
-                document.querySelector('data-table').data = rows;
+                target.data = rows;
             }
         });
     </script>

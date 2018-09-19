@@ -8,13 +8,13 @@
     "build": "NODE_ENV=production cross-env rollup -c ./scripts/rollup.config.js && yarn build:sfdx",
     "build:dev": "cross-env rollup -c ./scripts/rollup.config.js && yarn build:sfdx",
     "build:dev:watch": "cross-env rollup -c ./scripts/rollup.config.js --watch",
-    "build:sfdx": "cp public/js/main*.js ../../force-app/main/default/staticresources/vanilla/main.js",
-    "clean": "rm -rf publicjs/main*",
+    "build:sfdx": "cp public/js/main.min.js ../../force-app/main/default/staticresources/vanilla/main.js",
+    "clean": "rm -rf public/js/main*",
     "lint": "eslint src/",
     "test": "",
     "serve": "node server.js",
     "start": "concurrently \"yarn build:dev:watch\" \"yarn serve\"",
-    "prettier": "prettier --write 'src/**/*.js' 'public/**/*.js'"
+    "prettier": "prettier --write 'src/**/*.js'"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
