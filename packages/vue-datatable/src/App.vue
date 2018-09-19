@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <dataTable v-bind:data="rows">
+    <dataTable v-bind:data="data">
         <dataColumn field='FMID__c' label='Market Id'></dataColumn>
         <dataColumn field='Name' label='Name' editable></dataColumn>
         <dataColumn field='City__c' label='City' editable></dataColumn>
@@ -17,14 +17,6 @@ export default {
     name: 'App',
     props: {
         data: Array
-    },
-    data: function () {
-        return {
-            rows: [
-                { id: 0, FMID__c: '0', Name: 'Ferry Building Market', City__c: 'San Francisco', Twitter__c: undefined },
-                { id: 1, FMID__c: '1', Name: 'Weekend Market', City__c: 'Alameda', Twitter__c: '@market' }
-            ]
-        }
     },
     components: {
         dataTable, dataColumn
