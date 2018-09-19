@@ -4,10 +4,10 @@
   "description": "A datatable component in Vue.js",
   "private": true,
   "scripts": {
-    "build": "node build/build.js",
-    "build:sfdx": "cp dist/static/js/app*.js ../../force-app/main/default/staticresources/vue/app.js && cp dist/static/js/vendor*.js ../../force-app/main/default/staticresources/vue/vendor.js && cp dist/static/css/app*.css ../../force-app/main/default/staticresources/vue/app.css",
+    "build": "node build/build.js && yarn build:sfdx",
+    "build:sfdx": "cp dist/static/js/app*.js ../../force-app/main/default/staticresources/vue/app.js && cp dist/static/css/app*.css ../../force-app/main/default/staticresources/vue/app.css",
     "clean": "rm -rf dist",
-    "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
+    "lint": "eslint --ext .js,.vue src",
     "test": "",
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "yarn dev"
