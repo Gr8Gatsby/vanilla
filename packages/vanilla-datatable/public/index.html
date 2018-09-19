@@ -7,7 +7,7 @@
     <script src="/js/main.js"></script>
 
     <!-- define the table's shape -->
-    <data-table>
+    <data-table id='app'>
         <data-column field='FMID__c' label='Market Id' editable='false'></data-column>
         <data-column field='Name' label='Name' editable='true'></data-column>
         <data-column field='City__c' label='City' editable='true'></data-column>
@@ -16,17 +16,24 @@
 
     <!-- load sample data -->
     <script>
-      // load sample data
-      fetch('/js/Market__cs0.json')
-        .then(response => response.json())
-        .then(
-            (json) => {
-                const data = json.records.map(record => Object.assign(record, { id: record.FMID__c }));
-                document.querySelector('data-table').data = data;
-            },
-            (error) => {
-                alert('Error loading sample data: ' + JSON.stringify(error));
-            });
+        const target = document.getElementById('app');
+
+        // listener for save event
+        target.addEventListener('change', (event) => {
+            console.info('Received change event', event.detail);
+        });
+
+        // load sample data
+        fetch('/js/Market__cs0.json')
+            .then(response => response.json())
+            .then(
+                (json) => {
+                    const data = json.records.map(record => Object.assign(record, { id: record.FMID__c }));
+                    target.data = data;
+                },
+                (error) => {
+                    alert('Error loading sample data: ' + JSON.stringify(error));
+                });
     </script>
 </body>
 

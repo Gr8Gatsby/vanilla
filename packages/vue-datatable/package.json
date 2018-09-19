@@ -4,10 +4,10 @@
   "description": "A datatable component in Vue.js",
   "private": true,
   "scripts": {
-    "build": "node build/build.js",
-    "build:sfdx": "cp dist/static/js/app*.js ../../force-app/main/default/staticresources/vue/app.js && cp dist/static/js/vendor*.js ../../force-app/main/default/staticresources/vue/vendor.js && cp dist/static/css/app*.css ../../force-app/main/default/staticresources/vue/app.css",
+    "build": "node build/build.js && yarn build:sfdx",
+    "build:sfdx": "cp dist/static/js/app*.js ../../force-app/main/default/staticresources/vue/app.js && cp dist/static/css/app*.css ../../force-app/main/default/staticresources/vue/app.css && cp dist/static/js/manifest*.js ../../force-app/main/default/staticresources/vue/manifest.js ",
     "clean": "rm -rf dist",
-    "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
+    "lint": "eslint --ext .js,.vue src",
     "test": "",
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "yarn dev"
@@ -32,7 +32,6 @@
     "babel-preset-stage-2": "^6.22.0",
     "babel-register": "^6.22.0",
     "chalk": "^2.0.1",
-    "chromedriver": "^2.27.2",
     "copy-webpack-plugin": "^4.0.1",
     "cross-spawn": "^5.0.1",
     "css-loader": "^0.28.0",

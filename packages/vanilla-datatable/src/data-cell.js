@@ -10,6 +10,7 @@ export default class DataCell extends HTMLElement {
         // create bound version of handlers
         this.handleDoubleClick = this.handleDoubleClick.bind(this);
         this.handleBlur = this.handleBlur.bind(this);
+        this.handleChange = this.handleChange.bind(this);
         this.handleKeyDown = this.handleKeyDown.bind(this);
 
         // create and populate the shadow dom
@@ -103,19 +104,24 @@ export default class DataCell extends HTMLElement {
         }
     }
 
-    // blur exits edit mode, saving any change
+    // blur exits edit mode
     handleBlur() {
         if (this.editable) {
             this.setEditMode(false);
+        }
+    }
+
+    // change triggers save
+    handleChange() {
+        if (this.editable) {
             this.dispatchSave();
         }
     }
 
-    // [enter] exits edit mode, saving any change
+    // [enter] exits edit mode
     handleKeyDown(evt) {
         if (evt.key === 'Enter' && this.editable) {
             this.setEditMode(false);
-            this.dispatchSave();
         }
     }
 
@@ -124,7 +130,7 @@ export default class DataCell extends HTMLElement {
         if (newValue !== this.value) {
             // prepare event
             const detail = { id: this.id, field: this.field, value: newValue };
-            const event = new CustomEvent('save', { bubbles: true, detail });
+            const event = new CustomEvent('change', { bubbles: true, composed: true, detail });
             this.dispatchEvent(event);
         }
     }
@@ -133,6 +139,7 @@ export default class DataCell extends HTMLElement {
         const input = this._inputElement;
         input.addEventListener('dblclick', this.handleDoubleClick);
         input.addEventListener('blur', this.handleBlur);
+        input.addEventListener('change', this.handleChange);
         input.addEventListener('keydown', this.handleKeyDown);
     }
 
@@ -140,6 +147,7 @@ export default class DataCell extends HTMLElement {
         const input = this._inputElement;
         input.removeEventListener('dblclick', this.handleDoubleClick);
         input.removeEventListener('blur', this.handleBlur);
+        input.removeEventListener('change', this.handleChange);
         input.removeEventListener('keydown', this.handleKeyDown);
     }
 }

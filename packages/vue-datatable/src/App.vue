@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <dataTable v-bind:data="data">
+    <dataTable v-bind:data="data" v-on:change="$emit('change', $event)">
         <dataColumn field='FMID__c' label='Market Id'></dataColumn>
         <dataColumn field='Name' label='Name' editable></dataColumn>
         <dataColumn field='City__c' label='City' editable></dataColumn>
