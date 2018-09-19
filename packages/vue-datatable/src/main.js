@@ -13,11 +13,15 @@ const COLUMNS = [
 
 function render (data) {
     const AppRoot = Vue.extend(App)
-    new AppRoot({ // eslint-disable-line no-new
+    const app = new AppRoot({ // eslint-disable-line no-new
         el: '#app',
         propsData: {
             data
         }
+    })
+    app.$on('change', function (event) {
+        console.info('Received change event', event)
+        // NOTE - here we'd use Remote Objects to perform the save
     })
 }
 
@@ -37,6 +41,7 @@ if (typeof SObjectModel !== 'undefined') { // eslint-disable-line no-undef
                         row[column.field] = record.get(column.field)
                         return row
                     }, {})
+                    row.id = record.get('FMID__c')
                     return row
                 })
 

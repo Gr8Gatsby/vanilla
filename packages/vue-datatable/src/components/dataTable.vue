@@ -8,6 +8,7 @@
                 v-bind:field="column.field"
                 v-bind:value="row[column.field]"
                 v-bind:editable="column.editable"
+                v-on:change="$emit('change', $event)"
                 />
         </div>
     </div>

@@ -5,8 +5,9 @@
             v-bind:readonly="readOnly"
             v-model.lazy.trim="modelValue"
             v-on:dblclick="handleDoubleClick"
+            v-on:change="handleChange"
             v-on:blur="handleBlur"
-            v-on:keydown="handleKeyDown">
+            v-on:keyup.enter="handleBlur">
     </span>
 </template>
 
@@ -36,13 +37,10 @@ export default {
                 this.setEditMode(true)
             }
         },
-        handleKeyDown: function (evt) {
-            if (evt.key === 'Enter' && this.editable) {
-                this.setEditMode(false)
-                this.dispatchSave()
-            }
-        },
         handleBlur: function (evt) {
+            this.setEditMode(false)
+        },
+        handleChange: function (evt) {
             if (this.editable) {
                 this.setEditMode(false)
                 this.dispatchSave()
@@ -50,8 +48,7 @@ export default {
         },
         dispatchSave: function () {
             if (this.value !== this.modelValue) {
-                console.warn('UPDATE', this.id, this.field, this.value, this.modelValue)
-                this.$emit('update:value', this.modelValue)
+                this.$emit('change', { id: this.id, field: this.field, value: this.modelValue })
             }
         }
     }
