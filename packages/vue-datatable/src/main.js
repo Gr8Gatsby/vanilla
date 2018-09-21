@@ -7,8 +7,7 @@ Vue.config.productionTip = false
 const COLUMNS = [
     { field: 'FMID__c', label: 'Market ID', editable: false },
     { field: 'Name', label: 'Market Name', editable: true },
-    { field: 'City__c', label: 'City', editable: true },
-    { field: 'Twitter__c', label: 'Twitter', editable: true }
+    { field: 'City__c', label: 'City', editable: true }
 ]
 
 function render (data) {

@@ -1,7 +1,7 @@
 <apex:page>
     <!-- Use Remote Objects to load data -->
     <apex:remoteObjects>
-        <apex:remoteObjectModel name="Market__c" jsShorthand="Market" fields="FMID__c,Name,Twitter__c,City__c">
+        <apex:remoteObjectModel name="Market__c" jsShorthand="Market" fields="FMID__c,Name,City__c">
         </apex:remoteObjectModel>
     </apex:remoteObjects>
 
@@ -13,7 +13,6 @@
         <data-column field='FMID__c' label='Market Id' editable='false'></data-column>
         <data-column field='Name' label='Name' editable='true'></data-column>
         <data-column field='City__c' label='City' editable='true'></data-column>
-        <data-column field='Twitter__c' label='Twitter' editable='true'></data-column>
     </data-table>
 
     <!-- Load the data -->

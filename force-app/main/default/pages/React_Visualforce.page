@@ -1,7 +1,7 @@
 <apex:page docType="html-5.0">
     <!-- Use Remote Objects to load data -->
     <apex:remoteObjects>
-        <apex:remoteObjectModel name="Market__c" jsShorthand="Market" fields="FMID__c,Name,Twitter__c,City__c">
+        <apex:remoteObjectModel name="Market__c" jsShorthand="Market" fields="FMID__c,Name,City__c">
         </apex:remoteObjectModel>
     </apex:remoteObjects>
 
