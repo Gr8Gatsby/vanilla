@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="table">
         <slot></slot>
         <div v-for="row in data" v-bind:key="row.id">
             <dataCell v-for="column in columns"

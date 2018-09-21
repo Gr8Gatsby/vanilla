@@ -4,7 +4,6 @@
         <dataColumn field='FMID__c' label='Market Id'></dataColumn>
         <dataColumn field='Name' label='Name' editable></dataColumn>
         <dataColumn field='City__c' label='City' editable></dataColumn>
-        <dataColumn field='Twitter__c' label='Twitter' editable></dataColumn>
     </dataTable>
   </div>
 </template>
@@ -25,12 +24,9 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.table {
+    border: 1px solid red;
+    padding: 5px;
+    text-align: center;
 }
 </style>
