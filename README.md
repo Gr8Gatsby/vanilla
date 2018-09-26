@@ -87,8 +87,38 @@ The project is a monorepo meaning it contains sub-projects. The `packages` direc
 
 ## Application Walkthrough
 
+The Vanilla app consists of three different Visualforce pages and Market data downloaded from [data.gov](https://apps.ams.usda.gov/FarmersMarketsExport/ExcelExport.aspx). This app uses a Custom Object called Market, which contains a subset of the fields available from data.gov.
+
+Each tab focuses on a different approach to building the same functionality for a data table component.  The data is loaded via <apex:remoteObjects>. Each local project from the ```packages``` directory is minimized during the build command and automatically placed in the ```force-app\main\default\staticresources``` directory of the project
+
+1. JavaScript + <custom-element>
+
+This app produces a 2kb gzipped bundle of JavaScript and creates a ```<data-table>``` custom element. The custom element supports a ```<data-column>``` sub element where the data columns for the table are defined.  This custom element has these attributes:
+
+* field (e.g. FMID__c) - specifies the field name returned from the apex remote object.
+* label (e.g. Market Id) - specifies the display name of the column
+* editable (e.g. true/false) - enables double click editing for the data
+
+1. Vue
+
+This app produces a 35.4kb gzipped bundle of JavaScript and creates a ```<data-table>``` Vue element. The Vue element supports a ```<data-column>``` sub element where the data columns for the table are defined.  This Vue element has these attributes:
+
+* field (e.g. FMID__c) - specifies the field name returned from the apex remote object.
+* label (e.g. Market Id) - specifies the display name of the column
+* editable (e.g. true/false) - enables double click editing for the data
+
+In order to bind the element to the data someone using the declaritive tag must also specify the Vue binding and click event as attributes of the ```<data-table>```
+
+```v-bind:data="data" v-on:change="$emit('change', $event)"```
 
 
+1. React
+
+This app produces a 38.6kb gzipped bundle of JavaScript and creates a ```<DataTable>``` react element. The React element supports a ```<DataColumn>``` sub elemebt where the data columns for the table are defined. The React element supports these props:
+
+* field (e.g. FMID__c) - specifies the field name returned from the apex remote object.
+* label (e.g. Market Id) - specifies the display name of the column
+* editable (e.g. true/false) - enables double click editing for the data
 
 ## Making Changes
 
