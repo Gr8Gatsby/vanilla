@@ -91,7 +91,7 @@ The Vanilla app consists of three different Visualforce pages and Market data do
 
 Each tab focuses on a different approach to building the same functionality for a data table component.  The data is loaded via <apex:remoteObjects>. Each local project from the ```packages``` directory is minimized during the build command and automatically placed in the ```force-app\main\default\staticresources``` directory of the project
 
-1. JavaScript + <custom-element>
+1. JavaScript + ```<custom-element>```
 
 This app produces a 2kb gzipped bundle of JavaScript and creates a ```<data-table>``` custom element. The custom element supports a ```<data-column>``` sub element where the data columns for the table are defined.  This custom element has these attributes:
 
